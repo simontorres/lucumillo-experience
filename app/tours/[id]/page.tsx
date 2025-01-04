@@ -1,15 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
 
-// import { tours } from '../../page'
-
 
 const HomePage = ({ params: { id }}) => {
 
   return (
     <div className="min-h-screen flex flex-col">
-
-
       <main className="flex-grow container mx-auto p-4">
         <h1 className="text-4xl font-bold text-center my-8">
           Contact Us { id }
@@ -26,11 +22,8 @@ const HomePage = ({ params: { id }}) => {
           >
             Send us a message
           </Link>
-
         </div>
       </main>
-
-
     </div>
   );
 };
