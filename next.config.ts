@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
   publicRuntimeConfig: {
     basePath: '/lucumillo-experience',
   },
+  images: {
+    unoptimized: true,
+  }
 };
 
 export default nextConfig;

@@ -32,7 +32,7 @@ export default async function Tours({ params, }: { params: Promise<{ id: string 
         </p>
         <div className='flex justify-center'>
           <Image
-            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/tours/${tour.image}`}
+            src={`/lucumillo-experience/images/tours/${tour.image}`}
             alt={tour.title}
             width={480}
             height={600}
