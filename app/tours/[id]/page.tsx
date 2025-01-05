@@ -2,7 +2,9 @@ import React from 'react';
 import Link from 'next/link';
 
 
-const HomePage = ({ params: { id }}) => {
+export default async function HomePage({ params, }: { params: Promise<{ id: number }> }) {
+  
+  const id = (await params).id
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -27,5 +29,3 @@ const HomePage = ({ params: { id }}) => {
     </div>
   );
 };
-
-export default HomePage;
