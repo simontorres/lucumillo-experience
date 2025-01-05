@@ -23,7 +23,7 @@ const HomePage = () => {
             <Link key={tour.id} href={`/tours/${tour.id}`}>
               <div key={tour.id} className="rounded-lg shadow-lg overflow-hidden">
                 <Image
-                  src={`/images/tours/${tour.image}`}
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/tours/${tour.image}`}
                   alt={tour.title}
                   width={480}
                   height={400}
