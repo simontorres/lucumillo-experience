@@ -1,5 +1,5 @@
 interface Guide {
-    id: number
+    id: string
     name: string
     bio: string
     picture: string
@@ -8,19 +8,19 @@ interface Guide {
 
 export const guides: Guide[] = [
     {
-      id: 1,
+      id: '1',
       name: "Aleksandar Cikota",
       bio: "Professional Astronomer",
       picture: '',
     },
     {
-      id: 2,
+      id: '2',
       name: "Mauricio Rojas",
       bio: "Engineer",
       picture: '',
     },
     {
-      id: 3,
+      id: '3',
       name: "Simón Torres",
       bio: "Engineer",
       picture: '',

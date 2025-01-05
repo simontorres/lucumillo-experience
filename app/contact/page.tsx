@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 
-const HomePage = () => {
+const Contact = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -35,4 +35,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Contact;

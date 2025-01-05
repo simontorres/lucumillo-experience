@@ -2,7 +2,7 @@ import React from 'react';
 import { guides } from '@/data/guides';
 
 
-const HomePage = () => {
+const About = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -51,4 +51,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default About;
