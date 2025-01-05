@@ -1,25 +1,6 @@
 import React from 'react';
+import { guides } from '@/data/guides';
 
-const guides = [
-  {
-    id: 1,
-    name: "Aleksandar Cikota",
-    bio: "Professional Astronomer",
-    picture: '',
-  },
-  {
-    id: 2,
-    name: "Mauricio Rojas",
-    bio: "Engineer",
-    picture: '',
-  },
-  {
-    id: 3,
-    name: "Simón Torres",
-    bio: "Engineer",
-    picture: '',
-  }
-]
 
 const HomePage = () => {
 

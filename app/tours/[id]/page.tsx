@@ -1,29 +1,39 @@
 import React from 'react';
-import Link from 'next/link';
+import Image from 'next/image';
 
+import { tours } from '../../../data/tours'
+import Link from 'next/link';
 
 export default async function HomePage({ params, }: { params: Promise<{ id: number }> }) {
   
   const id = (await params).id
 
+  const tour = tours.find((tour) => tour.id === Number(id))
+  
+  if (!tour) {
+    return <p>Not found!</p>
+  }
+
   return (
     <div className="min-h-screen flex flex-col">
       <main className="flex-grow container mx-auto p-4">
+        <div>
+          <Link href='/'>Back to Tours</Link>
+        </div>
         <h1 className="text-4xl font-bold text-center my-8">
-          Contact Us { id }
+          { tour.title }
         </h1>
         <p className="text-center text-gray-300 mb-8">
-          For now, the best way to contact us is to our whatsapp number.
+          {tour.description}
         </p>
         <div className='flex justify-center'>
-          <Link
-            href="https://wa.me/+56989404684"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-          >
-            Send us a message
-          </Link>
+        <Image
+          src={tour.image}
+          alt={tour.title}
+          width={480}
+          height={600}
+          className="w-full object-cover"
+        />
         </div>
       </main>
     </div>

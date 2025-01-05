@@ -3,27 +3,7 @@ import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
 
-
-const tours = [
-  {
-    id: 1,
-    title: 'Watch Wales and Dolphins',
-    description: 'Join us for a thrilling adventure in the mountains. Perfect for nature lovers.',
-    image: '/images/whales.webp',
-  },
-  {
-    id: 2,
-    title: 'Night Sky',
-    description: 'Discover the beauty of the city at night. A perfect blend of culture and nightlife.',
-    image: '/images/nightsky.webp',
-  },
-  {
-    id: 3,
-    title: 'Professional Observatories',
-    description: 'Relax on the pristine beaches and enjoy the tropical paradise.',
-    image: '/images/tololo.webp',
-  },
-];
+import {tours} from '../data/tours'
 
 const HomePage = () => {
 
