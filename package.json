@@ -2,7 +2,7 @@
   "name": "lucumillo-experience",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/simontorres/lucumillo-experience",
+  "homepage": "https://www.lucumilloexperience.cl",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
