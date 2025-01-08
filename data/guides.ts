@@ -8,12 +8,6 @@ interface Guide {
 
 export const guides: Guide[] = [
     {
-      id: '1',
-      name: "Aleksandar Cikota",
-      bio: "Professional Astronomer",
-      picture: '',
-    },
-    {
       id: '2',
       name: "Mauricio Rojas",
       bio: "Engineer",
