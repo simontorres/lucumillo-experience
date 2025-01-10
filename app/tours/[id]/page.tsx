@@ -31,13 +31,21 @@ export default async function Tours({ params, }: { params: Promise<{ id: string 
           {tour.description}
         </p>
         <div className='flex justify-center'>
-          <Image
-            src={`/images/tours/${tour.image}`}
-            alt={tour.title}
-            width={480}
-            height={600}
-            className="w-full object-cover"
-          />
+          <figure>
+            <Image
+              src={`/images/tours/md/${tour.image}`}
+              alt={tour.title}
+              width={480}
+              height={600}
+              className="w-full object-cover"
+            />
+            {
+              tour.image_caption
+                ? <figcaption>{tour.image_caption}</figcaption>
+                : <></>
+            }
+            
+          </figure>
         </div>
       </main>
     </div>
