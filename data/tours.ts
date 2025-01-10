@@ -24,7 +24,7 @@ export const tours: Tour[] = [
         description: 'Discover the beauty of the best night sky in the world.',
         long_description: '',
         image: 'nightsky_004.webp',
-        image_caption: '',
+        image_caption: 'Orion Nebula photographed in Andacollo.',
         enabled: true
     },
     {
@@ -33,7 +33,7 @@ export const tours: Tour[] = [
         description: 'Have you ever wanted to visit a professional observatory? In our region we have some of the largest in the world!.',
         long_description: '',
         image: 'nightsky_001.webp',
-        image_caption: '',
+        image_caption: 'The south celestial pole photographed over three hours.',
         enabled: true
     },
     {
@@ -42,7 +42,7 @@ export const tours: Tour[] = [
         description: 'Do you like birdwatching? We have several wetlands with permanent and migrant species.',
         long_description: '',
         image: 'birdwatching_004.webp',
-        image_caption: '',
+        image_caption: 'Fio Fio is a migrant bird, here is perching on an Espino branch.',
         enabled: true
     },
     {
@@ -51,7 +51,7 @@ export const tours: Tour[] = [
         description: 'The Elqui Valley is a magical place, with its beautiful landscapes, great food, wine and pisco.',
         long_description: '',
         image: 'elqui_valley_001.webp',
-        image_caption: '',
+        image_caption: 'Montegrande is where Gabriela Mistral (Nobel Prize Winner) lived and worked.',
         enabled: true
     },
     {
@@ -60,7 +60,7 @@ export const tours: Tour[] = [
         description: 'If having the best sky in the world was not enough, did you know that we have many mountains?',
         long_description: '',
         image: 'climb_the_andes_001.webp',
-        image_caption: '',
+        image_caption: 'The sun rises over the mountains near Combarbalá.',
         enabled: true
     },
     {
@@ -69,7 +69,7 @@ export const tours: Tour[] = [
         description: 'Are you one of those "special interests" kind of tourist? We got you covered!.',
         long_description: '',
         image: 'something_else_002.webp',
-        image_caption: '',
+        image_caption: 'Beautiful sunset from La Serena with Coquimbo in the Background.',
         enabled: true
     },
 ];
