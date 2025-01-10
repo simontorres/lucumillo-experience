@@ -26,7 +26,15 @@ const Contact = () => {
           </Link>
         </div>
         <div className='flex justify-center'>
-        <Link href={'mailto:lucumilloexperience@gmail.com'}>Or send us an email</Link>
+          <p>Or</p>
+        </div>
+        <div className='flex justify-center'>
+          <Link
+            href={'mailto:lucumilloexperience@gmail.com'}
+            className="bg-amber-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          >
+            Write us an email
+          </Link>
         </div>
       </main>
 
