@@ -6,8 +6,8 @@ const About = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      
-      
+
+
       <main className="flex-grow container mx-auto p-4">
         <h1 className="text-center text-3xl font-bold my-8">
           Lucumillo Experience
@@ -49,21 +49,21 @@ const About = () => {
 
           {
             guides.map(guide => (
-            <div key={guide.id} className='rounded-lg shadow-lg overflow-hidden'>
-              <div className="p-4">
+              <div key={guide.id} className='rounded-lg shadow-lg overflow-hidden'>
+                <div className="p-4">
                   <h2 className="text-center text-2xl font-bold mb-2">{guide.name}</h2>
                   <p className="text-center text-gray-300">{guide.bio}</p>
+                </div>
               </div>
-            </div>
             ))
           }
 
 
         </div>
-        
+
       </main>
 
-      
+
     </div>
   );
 };
