@@ -9,15 +9,18 @@ const About = () => {
 
 
       <main className="flex-grow container mx-auto p-4">
-        <h1 className="text-center text-3xl font-bold my-8">
-          Lucumillo Experience
-        </h1>
-        <p className="text-center text-gray-300 mb-8">
-          We offer personalized tours to whale watching and to see the night sky in northern Chile.
-        </p>
-        <div className='mb-8'>
-          <h2 className='text-center text-2xl font-bold'>Why Lucumillo?</h2>
-          <p className='text-center text-lg text-gray-300'>
+        <div className='p-4'>
+          <h1 className="text-justify text-3xl font-bold my-8">
+            Lucumillo Experience
+          </h1>
+          <p className="text-justify text-gray-300 mb-8">
+            We offer personalized tours to whale watching and to see the night sky in northern Chile.
+          </p>
+        </div>
+
+        <div className='mb-8 p-4'>
+          <h2 className='text-justify text-2xl font-bold'>Why Lucumillo?</h2>
+          <p className='text-justify text-lg text-gray-300'>
             The name Lucumillo comes from Myrcianthes coquimbensis, a rare and endangered
             bush native to the coastal deserts of Chile. Its narrow distribution spans
             only a few hundred kilometers in the Coquimbo region, where it grows among
@@ -26,7 +29,7 @@ const About = () => {
             relying on specific environmental conditions and facing threats from
             habitat loss due to urban development and tourism.
           </p>
-          <p className='text-center text-lg text-gray-300'>
+          <p className='text-justify text-lg text-gray-300'>
             We chose this name to honor the resilience of the Lucumillo, which,
             despite its fragility, thrives in the harsh conditions of the Chilean coastal desert.
             By adopting this name, we hope to raise awareness about the importance of
@@ -37,8 +40,8 @@ const About = () => {
 
         {/* OUR GUIDES */}
 
-        <div className='mb-8'>
-          <h2 className='text-center text-2xl font-bold'>Our Guides</h2>
+        <div className='mb-8 p-4'>
+          <h2 className='text-justify text-2xl font-bold'>Our Guides</h2>
           <p>We primarily collaborate with local, specialized guides provided by
             the sites we visit, ensuring you benefit from authentic, insider
             knowledge. Additionally, our team includes guides with diverse
@@ -50,9 +53,9 @@ const About = () => {
           {
             guides.map(guide => (
               <div key={guide.id} className='rounded-lg shadow-lg overflow-hidden'>
-                <div className="p-4">
-                  <h2 className="text-center text-2xl font-bold mb-2">{guide.name}</h2>
-                  <p className="text-center text-gray-300">{guide.bio}</p>
+                <div className="px-1 py-4">
+                  <h2 className="text-justify text-2xl font-bold mb-2">{guide.name}</h2>
+                  <p className="text-justify text-gray-300">{guide.bio}</p>
                 </div>
               </div>
             ))
