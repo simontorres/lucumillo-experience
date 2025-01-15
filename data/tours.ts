@@ -40,9 +40,10 @@ export const tours: Tour[] = [
         long_description: 'Insert long description here...',
         price: 100,
         seats: 9,
-        image: 'nightsky_001.webp',
-        image_caption: 'The south celestial pole photographed over three hours.',
+        image: 'observatories_001.webp',
+        image_caption: 'Cerro Tololo Observatory is one of the most impactful observatories.',
         gallery: [
+            { src: 'observatories_001.webp', alt: 'Cerro Tololo Observatory is one of the most impactful observatories.' },
             { src: 'nightsky_001.webp', alt: 'The south celestial pole photographed over three hours.' },
         ],
         enabled: true
