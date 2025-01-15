@@ -14,8 +14,11 @@ export default async function Tours({ params, }: { params: Promise<{ id: string 
 
   const tour = tours.find((tour) => tour.id === id)
 
-  if (!tour) {
-    return <p>Not found!</p>
+  if (!tour || !tour.enabled) {
+    return (
+      <div className='min-h-screen'>
+        <p>Not found!</p>
+      </div>)
   }
 
   return (
