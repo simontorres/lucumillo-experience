@@ -15,13 +15,21 @@ const About = () => {
         </p>
         <div className='mb-8'>
           <h2 className='text-2xl font-bold'>Why Lucumillo?</h2>
-          <p className='text-lg text-gray-300'>Lucumillo (Myrcianthes coquimbensis) is an endemic bush 
-            classified as <b>Endangered</b> its distribution comprises only a few 
-            hundred kilometers.
+          <p className='text-justify text-lg text-gray-300'>
+            The name Lucumillo comes from Myrcianthes coquimbensis, a rare and endangered
+            bush native to the coastal deserts of Chile. Its narrow distribution spans
+            only a few hundred kilometers in the Coquimbo region, where it grows among
+            large granite boulders, nourished by cool, moist breezes from the Pacific Ocean.
+            The Lucumillo bush is deeply tied to this unique ecosystem,
+            relying on specific environmental conditions and facing threats from
+            habitat loss due to urban development and tourism.
           </p>
-          <p className='text-lg text-gray-300'> By naming us this way, we want to honor the resilience of this bush, also 
-          we aim to help protecting it by raising awareness about its fragility to its ever reducing habitat.
-
+          <p className='text-justify text-lg text-gray-300'>
+            We chose this name to honor the resilience of the Lucumillo, which,
+            despite its fragility, thrives in the harsh conditions of the Chilean coastal desert.
+            By adopting this name, we hope to raise awareness about the importance of
+            conserving both the species and its delicate habitat. In doing so, we aim to contribute to
+            the protection of this remarkable part of Chile’s natural heritage.
           </p>
         </div>
 
