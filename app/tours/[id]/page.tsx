@@ -1,11 +1,17 @@
 import React from 'react';
-import Image from 'next/image';
 
 import { tours } from '../../../data/tours'
 import Link from 'next/link';
 
+
+import { AnimatedGallery } from '@/components/AnimatedGallery';
+
 export async function generateStaticParams() {
   return tours.map((tour) => ({ id: tour.id }))
+}
+
+function formatCurrency(value: number, locale: string, currency: string) {
+  return new Intl.NumberFormat(locale, { style: 'currency', currency: currency}).format(value)
 }
 
 export default async function Tours({ params, }: { params: Promise<{ id: string }> }) {
@@ -28,25 +34,13 @@ export default async function Tours({ params, }: { params: Promise<{ id: string 
           {tour.title}
         </h1>
         <p className="text-center text-gray-300 mb-8">
-          {tour.description}
+          {tour.long_description}
         </p>
-        <div className='flex justify-center'>
-          <figure>
-            <Image
-              src={`/images/tours/md/${tour.image}`}
-              alt={tour.title}
-              width={480}
-              height={600}
-              className="w-full object-cover"
-            />
-            {
-              tour.image_caption
-                ? <figcaption>{tour.image_caption}</figcaption>
-                : <></>
-            }
-            
-          </figure>
+        <div>
+          <p><b>Price: </b> { formatCurrency(tour.price, 'en-US', 'USD')}</p>
+          <p><b>Seats: </b> { tour.seats }</p>
         </div>
+        <AnimatedGallery images={tour.gallery}/>
       </main>
     </div>
   );
