@@ -34,7 +34,7 @@ export const tours: Tour[] = [
         long_description: '',
         image: 'nightsky_001.webp',
         image_caption: 'The south celestial pole photographed over three hours.',
-        enabled: true
+        enabled: false
     },
     {
         id: '4',
@@ -43,7 +43,7 @@ export const tours: Tour[] = [
         long_description: '',
         image: 'birdwatching_004.webp',
         image_caption: 'Fio Fio is a migrant bird, here is perching on an Espino branch.',
-        enabled: true
+        enabled: false
     },
     {
         id: '5',
@@ -52,7 +52,7 @@ export const tours: Tour[] = [
         long_description: '',
         image: 'elqui_valley_001.webp',
         image_caption: 'Montegrande is where Gabriela Mistral (Nobel Prize Winner) lived and worked.',
-        enabled: true
+        enabled: false
     },
     {
         id: '6',
@@ -61,7 +61,7 @@ export const tours: Tour[] = [
         long_description: '',
         image: 'climb_the_andes_001.webp',
         image_caption: 'The sun rises over the mountains near Combarbalá.',
-        enabled: true
+        enabled: false
     },
     {
         id: '7',
