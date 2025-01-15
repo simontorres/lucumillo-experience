@@ -1,6 +1,4 @@
 import React from 'react';
-import { guides } from '@/data/guides';
-
 
 const About = () => {
 
@@ -38,18 +36,6 @@ const About = () => {
             astronomy experts, who are passionate about sharing their unique
             perspectives and expertise. Together, we aim to provide you with a
             deeper connection to the places you explore.</p>
-
-          {
-            guides.map(guide => (
-            <div key={guide.id} className='rounded-lg shadow-lg overflow-hidden'>
-              <div className="p-4">
-                <h2 className="text-2xl font-bold mb-2">{guide.name}</h2>
-                <p className="text-gray-300">{guide.bio}</p>
-              </div>
-            </div>
-            ))
-          }
-
 
         </div>
         
