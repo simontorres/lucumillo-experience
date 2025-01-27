@@ -37,10 +37,10 @@ export default async function Tours({ params, }: { params: Promise<{ id: string 
           {tour.title}
         </h1>
         <p className="text-center text-gray-300 mb-8">
-          {tour.long_description}
+          {tour.long_description.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
         </p>
         <div>
-          <p><b>Price: </b> { formatCurrency(tour.price, 'en-US', 'USD')}</p>
+          {/* <p><b>Price: </b> { formatCurrency(tour.price, 'en-US', 'USD')}</p> */}
           <p><b>Seats: </b> { tour.seats }</p>
         </div>
         <AnimatedGallery images={tour.gallery}/>

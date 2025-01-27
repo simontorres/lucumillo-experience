@@ -7,7 +7,7 @@ export interface Tour {
     id: string
     title: string
     description: string
-    long_description: string
+    long_description: string[]
     price: number,
     seats: number,
     image: string
