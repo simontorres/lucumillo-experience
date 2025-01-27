@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
+
+import Navbar from "@/components/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,21 +31,8 @@ export default function RootLayout({
       >
         <div className="min-h-screen flex flex-col">
           {/* Navbar */}
-          <nav className="bg-lime-600 text-white p-4">
-            <div className="container mx-auto flex justify-between items-center">
-              <Link href="/">
-                <p className="text-2xl font-bold">Lucumillo Experience</p>
-              </Link>
-              <div className='flex'>
-                <Link href="/about">
-                  <p className="px-4">About</p>
-                </Link>
-                <Link href="/contact">
-                  <p className="px-4">Contact</p>
-                </Link>
-              </div>
-            </div>
-          </nav>
+          <Navbar />
+       
           {/* Main Content */}
           {children}
           {/* Call to Action */}

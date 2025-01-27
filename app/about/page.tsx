@@ -4,17 +4,20 @@ const About = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      
-      
+
+
       <main className="flex-grow container mx-auto p-4">
-        <h1 className="text-3xl font-bold my-8">
-          Lucumillo Experience
-        </h1>
-        <p className="text-gray-300 mb-8">
-          We offer personalized tours to whale watching and to see the night sky in northern Chile.
-        </p>
-        <div className='mb-8'>
-          <h2 className='text-2xl font-bold'>Why Lucumillo?</h2>
+        <div className='p-4'>
+          <h1 className="text-justify text-3xl font-bold my-8">
+            Lucumillo Experience
+          </h1>
+          <p className="text-justify text-gray-300 mb-8">
+            We offer personalized tours to whale watching and to see the night sky in northern Chile.
+          </p>
+        </div>
+
+        <div className='mb-8 p-4'>
+          <h2 className='text-justify text-2xl font-bold'>Why Lucumillo?</h2>
           <p className='text-justify text-lg text-gray-300'>
             The name Lucumillo comes from Myrcianthes coquimbensis, a rare and endangered
             bush native to the coastal deserts of Chile. Its narrow distribution spans
@@ -35,8 +38,8 @@ const About = () => {
 
         {/* OUR GUIDES */}
 
-        <div className='mb-8'>
-          <h2 className='text-2xl font-bold'>Our Guides</h2>
+        <div className='mb-8 p-4'>
+          <h2 className='text-justify text-2xl font-bold'>Our Guides</h2>
           <p>We primarily collaborate with local, specialized guides provided by
             the sites we visit, ensuring you benefit from authentic, insider
             knowledge. Additionally, our team includes guides with diverse
@@ -46,10 +49,10 @@ const About = () => {
             deeper connection to the places you explore.</p>
 
         </div>
-        
+
       </main>
 
-      
+
     </div>
   );
 };
