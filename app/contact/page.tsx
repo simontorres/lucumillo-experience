@@ -17,7 +17,7 @@ const Contact = () => {
         </p>
         <div className='flex justify-center'>
           <Link
-            href="https://wa.me/+56989404684"
+            href="https://wa.me/+56974062175"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
