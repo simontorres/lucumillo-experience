@@ -42,7 +42,7 @@ export default function RootLayout({
               
             </p>
             <a
-                href="https://wa.me/+56989404684"
+                href="https://wa.me/+56974062175"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline font-bold"
