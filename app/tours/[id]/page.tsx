@@ -10,9 +10,9 @@ export async function generateStaticParams() {
   return tours.map((tour) => ({ id: tour.id }))
 }
 
-// function formatCurrency(value: number, locale: string, currency: string) {
-//   return new Intl.NumberFormat(locale, { style: 'currency', currency: currency}).format(value)
-// }
+function formatCurrency(value: number, locale: string, currency: string) {
+  return new Intl.NumberFormat(locale, { style: 'currency', currency: currency}).format(value)
+}
 
 export default async function Tours({ params, }: { params: Promise<{ id: string }> }) {
 
@@ -40,7 +40,8 @@ export default async function Tours({ params, }: { params: Promise<{ id: string 
           {tour.long_description.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
         </p>
         <div>
-          {/* <p><b>Price: </b> { formatCurrency(tour.price, 'en-US', 'USD')}</p> */}
+          { tour.price ? <p><b>Price: </b> { formatCurrency(tour.price, 'es-CL', 'CLP')}</p>: <></>}
+          
           <p><b>Seats: </b> { tour.seats }</p>
         </div>
         <AnimatedGallery images={tour.gallery}/>
