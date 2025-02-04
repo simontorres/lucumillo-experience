@@ -10,10 +10,10 @@ const Contact = () => {
 
       <main className="flex-grow container mx-auto p-4">
         <h1 className="text-4xl font-bold text-center my-8">
-          Contact Us
+          Contáctanos!
         </h1>
-        <p className="text-center text-gray-300 mb-8">
-          For now, the best way to contact us is to our whatsapp number.
+        <p className="text-center dark:text-gray-300 mb-8">
+          Por ahora la mejor forma de contactarnos es mediante WhatsApp.
         </p>
         <div className='flex justify-center'>
           <Link
@@ -22,18 +22,18 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
           >
-            Send us a message
+            Envíanos un mensaje
           </Link>
         </div>
         <div className='flex justify-center'>
-          <p>Or</p>
+          <p>O</p>
         </div>
         <div className='flex justify-center'>
           <Link
             href={'mailto:lucumilloexperience@gmail.com'}
             className="bg-amber-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
           >
-            Write us an email
+            Escribenos un email
           </Link>
         </div>
       </main>

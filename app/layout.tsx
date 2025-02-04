@@ -38,7 +38,7 @@ export default function RootLayout({
           {/* Call to Action */}
           <div className="bg-green-500 text-white p-4 text-center">
             <p className="text-lg md:text-xl">
-              Interested in our tours?{' '}
+              Interesado en nuestros tours?{' '}
               
             </p>
             <a
@@ -47,7 +47,7 @@ export default function RootLayout({
                 rel="noopener noreferrer"
                 className="underline font-bold"
               >
-                Contact us on WhatsApp
+                Contáctanos por WhatsApp
               </a>
           </div>
 

@@ -1,54 +1,30 @@
-// app/page.tsx
-import Image from 'next/image';
-import React from 'react';
-import Link from 'next/link';
+"use client";
+import React from "react";
+import { ServiceCard } from "@/components/ServiceCard";
 
-import { tours } from '../data/tours'
+import { services } from "@/data/services";
+
 
 const HomePage = () => {
-
   return (
     <div className="min-h-screen flex flex-col">
-
-
       <main className="flex-grow container mx-auto p-4">
         <h1 className="text-4xl font-bold text-center my-8">
-          Welcome to Lucumillo Experience
+          Bienvenido a Lucumillo Experience
         </h1>
-        <p className="text-center text-gray-300 mb-8">
-          We offer personalized tours to whale watching and to see the night sky in northern Chile.
+        <p className="text-center dark:text-gray-300 mb-8">
+          Ofrecemos tours personalizados para la observación de ballenas y para
+          disfrutar del cielo nocturno en el norte de Chile. Además, tenemos
+          arriendo de bicicletas.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {tours.map(tour => (
-            <>{
-              tour.enabled 
-              ?<Link key={tour.id} href={`/tours/${tour.id}`}>
-               <div key={tour.id} className="rounded-lg shadow-lg overflow-hidden">
-                    <Image
-                      src={`/images/tours/xs/${tour.image}`}
-                      alt={tour.title}
-                      width={480}
-                      height={400}
-                      className="w-full h-60 object-cover"
-                    />
-                    <div className="p-4">
-                      <h2 className="text-2xl font-bold mb-2">{tour.title}</h2>
-                      <p className="text-gray-300">{tour.description}</p>
-                    </div>
-                  </div>
-              
-                </Link>
-              : <></>
-            }</>
-              
-            
-            
-
-          ))}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center">
+          {services
+            .filter((service) => service.enabled)
+            .map((service) => (
+              <ServiceCard key={service.id} service={service} />
+            ))}
         </div>
       </main>
-
-
     </div>
   );
 };

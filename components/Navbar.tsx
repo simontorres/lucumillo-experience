@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
 
+import ThemeToggle from "./ThemeToggle";
+
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -49,16 +51,18 @@ export default function Navbar() {
             isMenuOpen ? "block" : "hidden"
           } md:flex flex-col md:flex-row md:items-center absolute md:static top-16 left-0 w-full bg-lime-600 md:bg-transparent md:w-auto`}
         >
-          <Link href="/about">
+          <div className="px-4"><ThemeToggle /></div>
+          <Link href="/nosotros">
             <p className="px-4 py-2 md:py-0 hover:bg-lime-700 md:hover:bg-transparent md:hover:underline">
-              About
+              Nosotros
             </p>
           </Link>
-          <Link href="/contact">
+          <Link href="/contacto">
             <p className="px-4 py-2 md:py-0 hover:bg-lime-700 md:hover:bg-transparent md:hover:underline">
-              Contact
+              Contacto
             </p>
           </Link>
+          
         </div>
       </div>
     </nav>

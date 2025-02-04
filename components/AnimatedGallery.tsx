@@ -6,9 +6,10 @@ import { GalleryImage } from "@/interfaces";
 
 interface AnimatedImageGalleryProps {
   images: GalleryImage[];
+  subpath: string
 }
 
-export const AnimatedGallery = ({ images }: AnimatedImageGalleryProps) => {
+export const AnimatedGallery = ({ images, subpath }: AnimatedImageGalleryProps) => {
   const [fullScreenImageIndex, setFullScreenImageIndex] = useState<number | null>(null);
 
   const toggleBodyScroll = (disable: boolean) => {
@@ -63,7 +64,7 @@ export const AnimatedGallery = ({ images }: AnimatedImageGalleryProps) => {
             onClick={() => openFullScreen(index)}
           >
             <Image
-              src={`/images/tours/xs/${image.src}`}
+              src={`/images/${subpath}/xs/${image.src}`}
               alt={image.alt}
               width={480}
               height={480}
@@ -84,7 +85,7 @@ export const AnimatedGallery = ({ images }: AnimatedImageGalleryProps) => {
           <figure className="relative w-full max-w-screen-lg flex flex-col items-center">
             <div className="relative w-full max-h-[90vh] flex justify-center">
               <Image
-                src={`/images/tours/md/${images[fullScreenImageIndex].src}`}
+                src={`/images/${subpath}/md/${images[fullScreenImageIndex].src}`}
                 alt={images[fullScreenImageIndex].alt}
                 width={1200}
                 height={900}
@@ -101,7 +102,7 @@ export const AnimatedGallery = ({ images }: AnimatedImageGalleryProps) => {
             className="absolute top-4 right-4 bg-gray-800 text-white px-3 py-2 rounded"
             onClick={closeFullScreen}
           >
-            Close
+            Cerrar
           </button>
 
           {/* Navigation Buttons */}

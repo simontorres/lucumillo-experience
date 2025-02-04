@@ -5,14 +5,13 @@ import Link from 'next/link';
 
 
 import { AnimatedGallery } from '@/components/AnimatedGallery';
+import { formatCurrency } from '@/utils/formatCurrency';
 
 export async function generateStaticParams() {
   return tours.map((tour) => ({ id: tour.id }))
 }
 
-function formatCurrency(value: number, locale: string, currency: string) {
-  return new Intl.NumberFormat(locale, { style: 'currency', currency: currency}).format(value)
-}
+
 
 export default async function Tours({ params, }: { params: Promise<{ id: string }> }) {
 
@@ -31,20 +30,24 @@ export default async function Tours({ params, }: { params: Promise<{ id: string 
     <div className="min-h-screen flex flex-col">
       <main className="flex-grow container mx-auto p-4">
         <div>
-          <Link href='/'>Back to Tours</Link>
+          <Link href='/tours'>Volver a los Tours</Link>
         </div>
         <h1 className="text-4xl font-bold text-center my-8">
           {tour.title}
         </h1>
-        <p className="text-center text-gray-300 mb-8">
+        <p className="text-center dark:text-gray-300 mb-8">
           {tour.long_description.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
         </p>
         <div>
-          { tour.price ? <p><b>Price: </b> { formatCurrency(tour.price, 'es-CL', 'CLP')}</p>: <></>}
+          <p><b>Que se incluye:</b> { tour.includes }</p>
+
+          { tour.price ? <p><b>Precio: </b> { formatCurrency(tour.price, 'es-CL', 'CLP')}</p>: <></>}
           
-          <p><b>Seats: </b> { tour.seats }</p>
+          <p><b>Asientos: </b> {tour.seats}</p>
+          <p><b>Lugar de Partida:</b> {tour.departing_place}</p>
+          <p><b>Hora de Partida:</b> { tour.departing_time ? tour.departing_time : 'Por definir' }</p>
         </div>
-        <AnimatedGallery images={tour.gallery}/>
+        <AnimatedGallery images={tour.gallery} subpath='tours'/>
       </main>
     </div>
   );
