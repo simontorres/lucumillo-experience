@@ -2,14 +2,14 @@ import { Tour } from "@/interfaces";
 
 export const tours: Tour[] = [
     {
-        id: '1',
+        id: 'avistamiento-de-ballenas-y-delfines',
         title: 'Avistamiento de ballenas y delfines',
         description: 'Únete a nosotros para la emocionante experiencia de avistamiento de ballenas. Perfecto para los amantes de la naturaleza.',
         long_description: [
             "Embárcate en un viaje inolvidable a Chañaral de Aceituno, un pintoresco pueblo costero ubicado junto a la Corriente de Humboldt en Chile. Esta corriente fría y rica en nutrientes fluye hacia el norte desde la Antártida, creando un hábitat ideal para una increíble variedad de vida marina, incluyendo las majestuosas ballenas.",
             "Tu aventura comienza con un paseo en bote de dos horas hacia las prístinas aguas del Océano Pacífico. Guiado por operadores de botes experimentados, navegarás por estos mares llenos de vida en busca de algunas de las criaturas más impresionantes del planeta. Los avistamientos de ballenas varían según sus patrones naturales, y aunque existe una pequeña posibilidad de que no las encontremos, su presencia es un espectáculo frecuente y fascinante.",
             "Nuestros tours siguen estrictas pautas para garantizar que las ballenas sean observadas de manera responsable. A estos gentiles gigantes se les mantiene a una distancia adecuada para que se muevan libremente en su entorno natural, permitiéndote apreciar su grandeza sin causarles ninguna molestia."],
-        includes: '',
+        includes: 'Viaje de ida y vuelta, entrada para el de avistamiento de cetaceos y almuerzo.',
         price: 0,
         seats: 9,
         image: 'whales_005.webp',
@@ -28,7 +28,7 @@ export const tours: Tour[] = [
         enabled: true
     },
     {
-        id: '2',
+        id: 'tour-astronomico-collowara-andacollo',
         title: 'Tour Astronómico',
         description: 'Descubre la belleza del mejor cielo nocturno del mundo.',
         long_description: [
@@ -70,7 +70,7 @@ export const tours: Tour[] = [
         enabled: false
     },
     {
-        id: '4',
+        id: 'avistamiento-de-aves',
         title: 'Birdwatching',
         description: 'Do you like birdwatching? We have several wetlands with permanent and migrant species.',
         long_description: ['Insert long description here...'],
@@ -127,7 +127,7 @@ export const tours: Tour[] = [
         enabled: false
     },
     {
-        id: '7',
+        id: 'tour-de-intereses-especiales',
         title: '¿Algo completamente diferente?',
         description: 'Eres de las personas que no les gustan los tours regulares? Escríbenos y hagamos un plan!.',
         long_description: ["¿Eres un viajero con intereses únicos en busca de algo realmente especial? Podemos personalizar tu experiencia para que coincida con tus pasiones y curiosidades. Ya sea explorar el arte de la pesca, maravillarte con la diversidad de especies de aves en sus hábitats naturales o visitar los observatorios astronómicos más grandes del mundo, las opciones son tan variadas como fascinantes.",
@@ -146,5 +146,26 @@ export const tours: Tour[] = [
         departing_place: 'Hostal Luna Del Mar, Isabel Riquelme 840, La Serena',
         departing_time: '',
         enabled: true
+    },
+    {
+        id: 'tour-de-astrofografia',
+        title: 'Astrofotografía',
+        description: 'Para quienes tengan su equipo y necesitan un lugar seguro, con energia y además seguro.',
+        long_description: ["¿Eres un viajero con intereses únicos en busca de algo realmente especial? Podemos personalizar tu experiencia para que coincida con tus pasiones y curiosidades. Ya sea explorar el arte de la pesca, maravillarte con la diversidad de especies de aves en sus hábitats naturales o visitar los observatorios astronómicos más grandes del mundo, las opciones son tan variadas como fascinantes.",
+            "Desde la tranquila belleza del Valle de Elqui, conocido por sus viñedos y producción de pisco, hasta el desafío de aventuras en alturas que superan los 6.000 metros, hay algo aquí para todos. Para aquellos atraídos por los paisajes áridos, nuestra cercanía al desierto ofrece oportunidades de exploración y descubrimiento en una de las regiones más secas del planeta.",
+            "Permítenos ayudarte a crear un tour que se ajuste a tus intereses específicos y que te permita descubrir las experiencias extraordinarias que esperan en esta región. Sea cual sea tu pasión, te ayudaremos a encontrar la aventura perfecta."],
+        includes: '',
+        price: 0,
+        seats: 9,
+        image: 'something_else_002.webp',
+        image_caption: 'Hermoso atardecer desde La Serena con Coquimbo al fondo.',
+        gallery: [
+            { src: 'something_else_001.webp', alt: 'Andacollo en la noche, hacia la derecha se ve el resplandor de La Serena.' },
+            { src: 'something_else_002.webp', alt: 'Hermoso atardecer desde La Serena con Coquimbo al fondo.' },
+            { src: 'something_else_003.webp', alt: 'Hermosas nubes en el atardecer, cerca de Combarbalá.' },
+        ],
+        departing_place: 'Hostal Luna Del Mar, Isabel Riquelme 840, La Serena',
+        departing_time: '',
+        enabled: false
     },
 ];
