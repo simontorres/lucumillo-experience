@@ -17,9 +17,9 @@ const ArriendoDeBicicletas = () => {
                 <p className="mb-4">
                     Descubre La Serena en una de nuestras bicicletas, un destino muy popular es recorrer la avenida del Mar, que está a unos cinco minutos.
                 </p>
-                <p><b>Precio:</b>{formatCurrency(bicycles.price, 'es-CL', 'CLP')} por hora</p>
-                <p><b>Incluye:</b>{bicycles.includes}</p>
-                <p><b>Lugar:</b>{bicycles.retrieving_place}</p>
+                <p><b>Precio:</b> {formatCurrency(bicycles.price, 'es-CL', 'CLP')} por hora</p>
+                <p><b>Incluye:</b> {bicycles.includes}</p>
+                <p><b>Lugar:</b> {bicycles.retrieving_place}</p>
                 <AnimatedGallery images={bicycles.gallery} subpath="bicycles" />
             </div>
         </div>
