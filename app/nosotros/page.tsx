@@ -17,7 +17,7 @@ const About = () => {
         </div>
 
         <div className='mb-8 p-4'>
-          <h2 className='text-justify text-2xl font-bold'>Why Lucumillo?</h2>
+          <h2 className='text-justify text-2xl font-bold'>Porqué Lucumillo?</h2>
           <p className='text-justify text-lg dark:text-gray-300'>
           El nombre Lucumillo proviene de Myrcianthes coquimbensis, un arbusto raro y en peligro de extinción, nativo de los desiertos costeros de Chile. Su distribución es muy limitada, abarcando solo unos pocos cientos de kilómetros en la región de Coquimbo, donde crece entre grandes rocas de granito, alimentado por las frescas y húmedas brisas del océano Pacífico. El arbusto Lucumillo está profundamente ligado a este ecosistema único, dependiendo de condiciones ambientales específicas y enfrentando amenazas debido a la pérdida de hábitat causada por el desarrollo urbano y el turismo.
           </p>
