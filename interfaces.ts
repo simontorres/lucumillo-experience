@@ -35,3 +35,10 @@ export interface Service {
     gallery: GalleryImage[]
     enabled: boolean
 }
+
+export interface Social {
+    name: string
+    value: string
+    full_url: string
+    enabled: boolean
+}
