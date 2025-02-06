@@ -43,7 +43,7 @@ export const tours: Tour[] = [
         gallery: [
             { src: 'nightsky_001.webp', alt: 'El polo sur celeste fotografiado durante tres horas.' },
             { src: 'nightsky_002.webp', alt: 'Observatorio Collowara con una parte de la Vía Láctea visible.' },
-            { src: 'nightsky_003.webp', alt: 'Entrada del Observatorio Collowara con la galaxia sobre él.' },
+            { src: 'nightsky_003_2.webp', alt: 'Entrada del Observatorio Collowara con la galaxia sobre él.' },
             { src: 'nightsky_004.webp', alt: 'Nebulosa de Orión fotografiada en Andacollo.' },
             { src: 'nightsky_005.webp', alt: 'Cometa Leonard C/2021 A1' },
         ],

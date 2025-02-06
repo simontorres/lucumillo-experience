@@ -9,7 +9,7 @@ export const services: Service[] = [
     gallery: [
       { src: "/images/services/xs/nightsky_001.webp", alt: "" },
       { src: "/images/services/xs/nightsky_002.webp", alt: "" },
-      { src: "/images/services/xs/nightsky_003.webp", alt: "" },
+      { src: "/images/services/xs/nightsky_003_2.webp", alt: "" },
       { src: "/images/services/xs/whales_003.webp", alt: "" },
       { src: "/images/services/xs/whales_004.webp", alt: "" },
       { src: "/images/services/xs/elqui_valley_001.webp", alt: "" },
