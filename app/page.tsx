@@ -3,6 +3,7 @@ import React from "react";
 import { ServiceCard } from "@/components/ServiceCard";
 
 import { services } from "@/data/services";
+import SocialLinks from "@/components/SocialLinks";
 
 
 const HomePage = () => {
@@ -17,6 +18,7 @@ const HomePage = () => {
           disfrutar del cielo nocturno en el norte de Chile. Además, tenemos
           arriendo de bicicletas.
         </p>
+        <SocialLinks />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center">
           {services
             .filter((service) => service.enabled)
@@ -24,6 +26,7 @@ const HomePage = () => {
               <ServiceCard key={service.id} service={service} />
             ))}
         </div>
+        
       </main>
     </div>
   );
