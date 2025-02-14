@@ -5,11 +5,15 @@ export const tours: Tour[] = [
         id: 'avistamiento-de-ballenas-y-delfines',
         title: {
             es: 'Avistamiento de ballenas y delfines',
-            en: 'Whale and Dolphin Watching'
+            en: 'Whale and Dolphin Watching',
+            de: 'Wal- und Delfinbeobachtung',
+            fr: 'Observation de baleines et de dauphins'
         },
         description: {
             es: 'Únete a nosotros para la emocionante experiencia de avistamiento de ballenas. Perfecto para los amantes de la naturaleza.',
-            en: 'Join us for an exciting whale-watching experience. Perfect for nature lovers.'
+            en: 'Join us for an exciting whale-watching experience. Perfect for nature lovers.',
+            de: 'Begleiten Sie uns zu einem aufregenden Walbeobachtungserlebnis. Perfekt für Naturliebhaber.',
+            fr: 'Rejoignez-nous pour une expérience passionnante d’observation des baleines. Parfait pour les amoureux de la nature.'
         },
         long_description: {
             es: [
@@ -25,65 +29,83 @@ export const tours: Tour[] = [
         },
         includes: {
             es: 'Viaje de ida y vuelta, entrada para el avistamiento de cetáceos y almuerzo.',
-            en: 'Round-trip travel, whale-watching tour entry, and lunch.'
+            en: 'Round-trip travel, whale-watching tour entry, and lunch.',
+            de: 'Hin- und Rückfahrt, Eintritt zur Walbeobachtung und Mittagessen.',
+            fr: 'Transport aller-retour, entrée pour l’observation des baleines et déjeuner.'
         },
         price: 0,
         seats: 9,
         image: 'whales_005.webp',
         image_caption: {
             es: 'Aleta o cola de ballena, justo antes de sumergirse.',
-            en: 'Whale fluke or tail, just before diving.'
+            en: 'Whale fluke or tail, just before diving.',
+            de: 'Walflosse oder Schwanz, kurz vor dem Abtauchen.',
+            fr: 'Queue de baleine, juste avant la plongée.'
         },
         gallery: [
             {
                 src: 'whales_001.webp',
                 alt: {
                     es: 'Aleta dorsal',
-                    en: 'Dorsal fin'
+                    en: 'Dorsal fin',
+                    de: 'Rückenflosse',
+                    fr: 'Nageoire dorsale'
                 }
             },
             {
                 src: 'whales_002.webp',
                 alt: {
                     es: 'Espiráculo con gotas de agua',
-                    en: 'Blowhole with water droplets'
+                    en: 'Blowhole with water droplets',
+                    de: 'Blasloch mit Wassertropfen',
+                    fr: 'Évent avec gouttelettes d’eau'
                 }
             },
             {
                 src: 'whales_003.webp',
                 alt: {
                     es: 'Espiráculo tomando aire',
-                    en: 'Blowhole taking in air'
+                    en: 'Blowhole taking in air',
+                    de: 'Blasloch nimmt Luft auf',
+                    fr: 'Évent aspirant de l’air'
                 }
             },
             {
                 src: 'whales_004.webp',
                 alt: {
                     es: 'Espiráculo a punto de cerrarse',
-                    en: 'Blowhole about to close'
+                    en: 'Blowhole about to close',
+                    de: 'Blasloch kurz vor dem Schließen',
+                    fr: 'Évent sur le point de se fermer'
                 }
             },
             {
                 src: 'whales_005.webp',
                 alt: {
                     es: 'Aleta o cola de ballena, justo antes de sumergirse.',
-                    en: 'Whale fluke or tail, just before diving.'
+                    en: 'Whale fluke or tail, just before diving.',
+                    de: 'Walflosse oder Schwanz, kurz vor dem Abtauchen.',
+                    fr: 'Queue de baleine, juste avant la plongée.'
                 }
             },
             {
                 src: 'whales_006.webp',
                 alt: {
                     es: 'Vista de la bahía de Chañaral de Aceituno',
-                    en: 'View of Chañaral de Aceituno Bay'
+                    en: 'View of Chañaral de Aceituno Bay',
+                    de: 'Blick auf die Bucht von Chañaral de Aceituno',
+                    fr: 'Vue sur la baie de Chañaral de Aceituno'
                 }
             },
             {
                 src: 'whales_007.webp',
                 alt: {
                     es: 'Vista hacia el mar.',
-                    en: 'View towards the ocean.'
+                    en: 'View towards the ocean.',
+                    de: 'Blick auf das Meer.',
+                    fr: 'Vue vers l’océan.'
                 }
-            },
+            }
         ],
         departing_place: 'Hostal Luna Del Mar, Isabel Riquelme 840, La Serena',
         departing_time: '07:00 AM',
@@ -93,11 +115,15 @@ export const tours: Tour[] = [
         id: 'tour-astronomico-collowara-andacollo',
         title: {
             es: 'Tour Astronómico',
-            en: 'Astronomical Tour'
+            en: 'Astronomical Tour',
+            de: 'Astronomische Tour',
+            fr: 'Tour Astronomique'
         },
         description: {
             es: 'Descubre la belleza del mejor cielo nocturno del mundo.',
-            en: 'Discover the beauty of the world’s best night sky.'
+            en: 'Discover the beauty of the world’s best night sky.',
+            de: 'Entdecken Sie die Schönheit des besten Nachthimmels der Welt.',
+            fr: 'Découvrez la beauté du meilleur ciel nocturne au monde.'
         },
         long_description: {
             es: [
@@ -113,51 +139,65 @@ export const tours: Tour[] = [
         },
         includes: {
             es: 'Viaje de ida y vuelta, entrada para el tour.',
-            en: 'Round-trip travel and tour entry.'
+            en: 'Round-trip travel and tour entry.',
+            de: 'Hin- und Rückfahrt und Eintritt zur Tour.',
+            fr: 'Transport aller-retour et entrée à la visite.'
         },
         price: 38000,
         seats: 9,
         image: 'nightsky_004.webp',
         image_caption: {
             es: 'Nebulosa de Orión fotografiada en Andacollo.',
-            en: 'Orion Nebula photographed in Andacollo.'
+            en: 'Orion Nebula photographed in Andacollo.',
+            de: 'Orionnebel in Andacollo fotografiert.',
+            fr: 'Nébuleuse d’Orion photographiée à Andacollo.'
         },
         gallery: [
             {
                 src: 'nightsky_001.webp',
                 alt: {
                     es: 'El polo sur celeste fotografiado durante tres horas.',
-                    en: 'The south celestial pole photographed for three hours.'
+                    en: 'The south celestial pole photographed for three hours.',
+                    de: 'Der südliche Himmelspol, drei Stunden lang fotografiert.',
+                    fr: 'Le pôle céleste sud photographié pendant trois heures.'
                 }
             },
             {
                 src: 'nightsky_002.webp',
                 alt: {
                     es: 'Observatorio Collowara con una parte de la Vía Láctea visible.',
-                    en: 'Collowara Observatory with part of the Milky Way visible.'
+                    en: 'Collowara Observatory with part of the Milky Way visible.',
+                    de: 'Collowara-Observatorium mit einem Teil der Milchstraße sichtbar.',
+                    fr: 'Observatoire de Collowara avec une partie de la Voie lactée visible.'
                 }
             },
             {
                 src: 'nightsky_003_2.webp',
                 alt: {
                     es: 'Entrada del Observatorio Collowara con la galaxia sobre él.',
-                    en: 'Entrance to Collowara Observatory with the galaxy above it.'
+                    en: 'Entrance to Collowara Observatory with the galaxy above it.',
+                    de: 'Eingang des Collowara-Observatoriums mit der Galaxie darüber.',
+                    fr: 'Entrée de l’Observatoire de Collowara avec la galaxie au-dessus.'
                 }
             },
             {
                 src: 'nightsky_004.webp',
                 alt: {
                     es: 'Nebulosa de Orión fotografiada en Andacollo.',
-                    en: 'Orion Nebula photographed in Andacollo.'
+                    en: 'Orion Nebula photographed in Andacollo.',
+                    de: 'Orionnebel, aufgenommen in Andacollo.',
+                    fr: 'Nébuleuse d’Orion photographiée à Andacollo.'
                 }
             },
             {
                 src: 'nightsky_005.webp',
                 alt: {
                     es: 'Cometa Leonard C/2021 A1',
-                    en: 'Comet Leonard C/2021 A1'
+                    en: 'Comet Leonard C/2021 A1',
+                    de: 'Komet Leonard C/2021 A1',
+                    fr: 'Comète Leonard C/2021 A1'
                 }
-            },
+            }
         ],
         departing_place: 'Hostal Luna Del Mar, Isabel Riquelme 840, La Serena',
         departing_time: '19:30',
@@ -388,11 +428,15 @@ export const tours: Tour[] = [
         id: 'tour-de-intereses-especiales',
         title: {
             es: '¿Algo completamente diferente?',
-            en: 'Something Completely Different?'
+            en: 'Something Completely Different?',
+            de: 'Etwas völlig Anderes?',
+            fr: 'Quelque chose de complètement différent?'
         },
         description: {
             es: '¿Eres de las personas que no les gustan los tours regulares? Escríbenos y hagamos un plan!',
-            en: 'Don’t like regular tours? Write to us, and let’s make a plan!'
+            en: 'Don’t like regular tours? Write to us, and let’s make a plan!',
+            de: 'Mögen Sie keine gewöhnlichen Touren? Schreiben Sie uns, und wir erstellen gemeinsam einen Plan!',
+            fr: 'Vous n’aimez pas les circuits classiques ? Écrivez-nous et élaborons un plan !'
         },
         long_description: {
             es: [
@@ -408,37 +452,48 @@ export const tours: Tour[] = [
         },
         includes: {
             es: '',
-            en: ''
-        },
+            en: '',
+            de: '',
+            fr: ''
+        }
+        ,
         price: 0,
         seats: 9,
         image: 'something_else_002.webp',
         image_caption: {
             es: 'Hermoso atardecer desde La Serena con Coquimbo al fondo.',
-            en: 'Beautiful sunset from La Serena with Coquimbo in the background.'
+            en: 'Beautiful sunset from La Serena with Coquimbo in the background.',
+            de: 'Wunderschöner Sonnenuntergang von La Serena mit Coquimbo im Hintergrund.',
+            fr: 'Magnifique coucher de soleil depuis La Serena avec Coquimbo en arrière-plan.'
         },
         gallery: [
             {
                 src: 'something_else_001.webp',
                 alt: {
                     es: 'Andacollo en la noche, hacia la derecha se ve el resplandor de La Serena.',
-                    en: 'Andacollo at night, with the glow of La Serena visible to the right.'
+                    en: 'Andacollo at night, with the glow of La Serena visible to the right.',
+                    de: 'Andacollo bei Nacht, mit dem Leuchten von La Serena rechts sichtbar.',
+                    fr: 'Andacollo la nuit, avec la lueur de La Serena visible à droite.'
                 }
             },
             {
                 src: 'something_else_002.webp',
                 alt: {
                     es: 'Hermoso atardecer desde La Serena con Coquimbo al fondo.',
-                    en: 'Beautiful sunset from La Serena with Coquimbo in the background.'
+                    en: 'Beautiful sunset from La Serena with Coquimbo in the background.',
+                    de: 'Wunderschöner Sonnenuntergang von La Serena mit Coquimbo im Hintergrund.',
+                    fr: 'Magnifique coucher de soleil depuis La Serena avec Coquimbo en arrière-plan.'
                 }
             },
             {
                 src: 'something_else_003.webp',
                 alt: {
                     es: 'Hermosas nubes en el atardecer, cerca de Combarbalá.',
-                    en: 'Beautiful clouds at sunset, near Combarbalá.'
+                    en: 'Beautiful clouds at sunset, near Combarbalá.',
+                    de: 'Wunderschöne Wolken bei Sonnenuntergang in der Nähe von Combarbalá.',
+                    fr: 'De magnifiques nuages au coucher du soleil, près de Combarbalá.'
                 }
-            },
+            }
         ],
         departing_place: 'Hostal Luna Del Mar, Isabel Riquelme 840, La Serena',
         departing_time: '',
@@ -448,11 +503,15 @@ export const tours: Tour[] = [
         id: 'tour-de-astrofografia',
         title: {
             es: 'Astrofotografía',
-            en: 'Astrophotography'
+            en: 'Astrophotography',
+            de: 'Astrofotografie',
+            fr: 'Astrophotographie'
         },
         description: {
             es: 'Para quienes tengan su equipo y necesitan un lugar seguro, con energía y además seguro.',
-            en: 'For those with their own equipment who need a secure location with power.'
+            en: 'For those with their own equipment who need a secure location with power.',
+            de: 'Für diejenigen, die ihre eigene Ausrüstung haben und einen sicheren Ort mit Strom benötigen.',
+            fr: 'Pour ceux qui disposent de leur propre équipement et ont besoin d’un endroit sécurisé avec alimentation électrique.'
         },
         long_description: {
             es: [
@@ -468,37 +527,47 @@ export const tours: Tour[] = [
         },
         includes: {
             es: '',
-            en: ''
+            en: '',
+            de: '',
+            fr: ''
         },
         price: 0,
         seats: 9,
         image: 'something_else_002.webp',
         image_caption: {
             es: 'Hermoso atardecer desde La Serena con Coquimbo al fondo.',
-            en: 'Beautiful sunset from La Serena with Coquimbo in the background.'
+            en: 'Beautiful sunset from La Serena with Coquimbo in the background.',
+            de: 'Wunderschöner Sonnenuntergang von La Serena mit Coquimbo im Hintergrund.',
+            fr: 'Magnifique coucher de soleil depuis La Serena avec Coquimbo en arrière-plan.'
         },
         gallery: [
             {
                 src: 'something_else_001.webp',
                 alt: {
                     es: 'Andacollo en la noche, hacia la derecha se ve el resplandor de La Serena.',
-                    en: 'Andacollo at night, with the glow of La Serena visible to the right.'
+                    en: 'Andacollo at night, with the glow of La Serena visible to the right.',
+                    de: 'Andacollo bei Nacht, mit dem Leuchten von La Serena rechts sichtbar.',
+                    fr: 'Andacollo la nuit, avec la lueur de La Serena visible à droite.'
                 }
             },
             {
                 src: 'something_else_002.webp',
                 alt: {
                     es: 'Hermoso atardecer desde La Serena con Coquimbo al fondo.',
-                    en: 'Beautiful sunset from La Serena with Coquimbo in the background.'
+                    en: 'Beautiful sunset from La Serena with Coquimbo in the background.',
+                    de: 'Wunderschöner Sonnenuntergang von La Serena mit Coquimbo im Hintergrund.',
+                    fr: 'Magnifique coucher de soleil depuis La Serena avec Coquimbo en arrière-plan.'
                 }
             },
             {
                 src: 'something_else_003.webp',
                 alt: {
                     es: 'Hermosas nubes en el atardecer, cerca de Combarbalá.',
-                    en: 'Beautiful clouds at sunset, near Combarbalá.'
+                    en: 'Beautiful clouds at sunset, near Combarbalá.',
+                    de: 'Wunderschöne Wolken bei Sonnenuntergang in der Nähe von Combarbalá.',
+                    fr: 'De magnifiques nuages au coucher du soleil, près de Combarbalá.'
                 }
-            },
+            }
         ],
         departing_place: 'Hostal Luna Del Mar, Isabel Riquelme 840, La Serena',
         departing_time: '',
