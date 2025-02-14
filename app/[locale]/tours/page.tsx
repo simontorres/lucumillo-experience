@@ -4,25 +4,26 @@ import React from 'react';
 import { tours } from '@/data/tours'
 import ToursGrid from '@/components/ToursGrid';
 import Link from 'next/link';
+import { getLocale, getTranslations } from 'next-intl/server';
 
-const HomePage = () => {
-
+const ToursIndex = async () => {
+  const t = await getTranslations("ToursIndex")
+  const currentLocale = await getLocale()
   return (
+    
     <div className="min-h-screen flex flex-col">
       
-
-
       <main className="flex-grow container mx-auto p-4">
         <div>
-          <Link href='/'>Volver al inicio</Link>
+          <Link href='/'>{t('goBack')}</Link>
         </div>
         <h1 className="text-4xl font-bold text-center my-8">
-          Tours
+        {t('title')}
         </h1>
         <p className="text-center dark:text-gray-300 mb-8">
-        Ofrecemos tours personalizados para la observación de ballenas y para disfrutar del cielo nocturno en el norte de Chile.
+        {t('summary')}
         </p>
-        <ToursGrid tours={tours} />
+        <ToursGrid tours={tours} locale={currentLocale} />
       </main>
 
 
@@ -30,4 +31,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default ToursIndex;

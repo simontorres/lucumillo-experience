@@ -1,21 +1,28 @@
-export interface GalleryImage {
-    src: string
-    alt: string
-}
+
 export interface LocalizedText {
+    [key: string]: string
     en: string
     es: string
 }
+export interface LocalizedLongDescripion {
+    [key: string]: string[]
+    en: string[]
+    es: string[]
+}
+export interface GalleryImage {
+    src: string
+    alt: LocalizedText
+}
 export interface Tour {
     id: string
-    title: string
-    description: string
-    long_description: string[]
-    includes: string
+    title: LocalizedText
+    description: LocalizedText
+    long_description: LocalizedLongDescripion
+    includes: LocalizedText
     price: number
     seats: number
     image: string
-    image_caption: string
+    image_caption: LocalizedText
     gallery: GalleryImage[]
     departing_place: string
     departing_time: string
@@ -23,7 +30,7 @@ export interface Tour {
 }
 
 export interface BicycleRental {
-    includes: string
+    includes: LocalizedText
     price: number
     gallery: GalleryImage[]
     retrieving_place: string

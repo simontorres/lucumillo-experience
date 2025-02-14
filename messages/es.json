@@ -6,6 +6,36 @@
         "about": "Nosotros",
         "contact": "Contacto"
     },
+    "HomePage": {
+        "title": "Bienvenido a Lucumillo Experience",
+        "summary": "Ofrecemos tours personalizados para la observación de ballenas y para disfrutar del cielo nocturno en el norte de Chile. Además, tenemos arriendo de bicicletas."
+    },
+    "ToursIndex": {
+        "goBack": "Volver al Inicio",
+        "title": "Tours",
+        "summary": "Ofrecemos tours personalizados para la observación de ballenas y para disfrutar del cielo nocturno en el norte de Chile."
+    },
+    "ToursDetails": {
+        "goBack": "Volver a los Tours",
+        "whatIsIncluded":"Que se incluye",
+        "price": "Precio",
+        "seats": "Asientos",
+        "departingPlace": "Lugar de salida",
+        "departingTime": "Hora de salida",
+        "toBeDefined": "Por definir"
+    },
+    "BikeRental": {
+        "goBack": "Volver al Inicio",
+        "title": "Arriendo de Bicicletas",
+        "summary": "Descubre La Serena en una de nuestras bicicletas, un destino muy popular es recorrer la avenida del Mar, que está a unos cinco minutos.",
+        "price":"Precio",
+        "perHour": "por hora",
+        "whatIsIncluded":"Que se incluye",
+        "where": "Donde"
+    },
+    "AnimatedGallery": {
+        "close": "Cerrar"
+    },
     "AboutPage": {
         "title": "Nosotros"
     }

@@ -3,13 +3,16 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { GalleryImage } from "@/interfaces";
+import { useTranslations } from "next-intl";
 
 interface AnimatedImageGalleryProps {
   images: GalleryImage[];
   subpath: string
+  locale: string
 }
 
-export const AnimatedGallery = ({ images, subpath }: AnimatedImageGalleryProps) => {
+export const AnimatedGallery = ({ images, subpath, locale }: AnimatedImageGalleryProps) => {
+  const t = useTranslations('AnimatedGallery')
   const [fullScreenImageIndex, setFullScreenImageIndex] = useState<number | null>(null);
 
   const toggleBodyScroll = (disable: boolean) => {
@@ -65,7 +68,7 @@ export const AnimatedGallery = ({ images, subpath }: AnimatedImageGalleryProps) 
           >
             <Image
               src={`/images/${subpath}/xs/${image.src}`}
-              alt={image.alt}
+              alt={image.alt[locale]}
               width={480}
               height={480}
               className="w-full h-full object-cover transition-transform duration-300"
@@ -86,14 +89,14 @@ export const AnimatedGallery = ({ images, subpath }: AnimatedImageGalleryProps) 
             <div className="relative w-full max-h-[90vh] flex justify-center">
               <Image
                 src={`/images/${subpath}/md/${images[fullScreenImageIndex].src}`}
-                alt={images[fullScreenImageIndex].alt}
+                alt={images[fullScreenImageIndex].alt[locale]}
                 width={1200}
                 height={900}
                 className="object-contain max-w-full max-h-full"
               />
             </div>
             <figcaption className="mt-2 bg-black bg-opacity-50 text-white px-4 py-2 rounded-md text-center">
-              {images[fullScreenImageIndex].alt}
+              {images[fullScreenImageIndex].alt[locale]}
             </figcaption>
           </figure>
 
@@ -102,7 +105,7 @@ export const AnimatedGallery = ({ images, subpath }: AnimatedImageGalleryProps) 
             className="absolute top-4 right-4 bg-gray-800 text-white px-3 py-2 rounded"
             onClick={closeFullScreen}
           >
-            Cerrar
+            {t('close')}
           </button>
 
           {/* Navigation Buttons */}

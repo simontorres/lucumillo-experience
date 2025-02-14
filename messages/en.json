@@ -6,6 +6,36 @@
         "about": "About",
         "contact": "Contact"
     },
+    "HomePage": {
+        "title": "Welcome to Lucumillo Experience",
+        "summary": "We offer personalized tours for whale whatching and to enjoy the night sky in the north of Chile. We also have bike rentals."
+    },
+    "ToursIndex": {
+        "goBack": "Go back to Home",
+        "title": "Tours",
+        "summary": "We offer personalized tours for whale whatching and to enjoy the night sky in the north of Chile."
+    },
+    "ToursDetails": {
+        "goBack": "Go back to Tours",
+        "whatIsIncluded":"What is Included",
+        "price": "Price",
+        "seats": "Seats",
+        "departingPlace": "Departing Place",
+        "departingTime": "Departing Time",
+        "toBeDefined": "To be defined"
+    },
+    "BikeRental": {
+        "goBack": "Go back to Home",
+        "title": "Bike Rental",
+        "summary": "Discover La Serena on one of our bicycles, a very popular destination is to ride along Avenida del Mar, which is about five minutes away.",
+        "price":"Price",
+        "perHour": "per hour",
+        "whatIsIncluded":"What is Included",
+        "where": "Where"
+    },
+    "AnimatedGallery": {
+        "close": "Close"
+    },
     "AboutPage": {
         "title": "About"
     }
