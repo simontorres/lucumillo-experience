@@ -35,13 +35,55 @@ export const tours: Tour[] = [
             en: 'Whale fluke or tail, just before diving.'
         },
         gallery: [
-            { src: 'whales_001.webp', alt: { es: 'Aleta dorsal', en: 'Dorsal fin' } },
-            { src: 'whales_002.webp', alt: { es: 'Espiráculo con gotas de agua', en: 'Blowhole with water droplets' } },
-            { src: 'whales_003.webp', alt: { es: 'Espiráculo tomando aire', en: 'Blowhole taking in air' } },
-            { src: 'whales_004.webp', alt: { es: 'Espiráculo a punto de cerrarse', en: 'Blowhole about to close' } },
-            { src: 'whales_005.webp', alt: { es: 'Aleta o cola de ballena, justo antes de sumergirse.', en: 'Whale fluke or tail, just before diving.' } },
-            { src: 'whales_006.webp', alt: { es: 'Vista de la bahía de Chañaral de Aceituno', en: 'View of Chañaral de Aceituno Bay' } },
-            { src: 'whales_007.webp', alt: { es: 'Vista hacia el mar.', en: 'View towards the ocean.' } },
+            {
+                src: 'whales_001.webp',
+                alt: {
+                    es: 'Aleta dorsal',
+                    en: 'Dorsal fin'
+                }
+            },
+            {
+                src: 'whales_002.webp',
+                alt: {
+                    es: 'Espiráculo con gotas de agua',
+                    en: 'Blowhole with water droplets'
+                }
+            },
+            {
+                src: 'whales_003.webp',
+                alt: {
+                    es: 'Espiráculo tomando aire',
+                    en: 'Blowhole taking in air'
+                }
+            },
+            {
+                src: 'whales_004.webp',
+                alt: {
+                    es: 'Espiráculo a punto de cerrarse',
+                    en: 'Blowhole about to close'
+                }
+            },
+            {
+                src: 'whales_005.webp',
+                alt: {
+                    es: 'Aleta o cola de ballena, justo antes de sumergirse.',
+                    en: 'Whale fluke or tail, just before diving.'
+                }
+            },
+            {
+                src: 'whales_006.webp',
+                alt: {
+                    es: 'Vista de la bahía de Chañaral de Aceituno',
+                    en: 'View of Chañaral de Aceituno Bay'
+                }
+            },
+            {
+                src: 'whales_007.webp',
+                alt: {
+                    es: 'Vista hacia el mar.',
+                    en: 'View towards the ocean.'
+                }
+            },
         ],
         departing_place: 'Hostal Luna Del Mar, Isabel Riquelme 840, La Serena',
         departing_time: '07:00 AM',
@@ -81,11 +123,41 @@ export const tours: Tour[] = [
             en: 'Orion Nebula photographed in Andacollo.'
         },
         gallery: [
-            { src: 'nightsky_001.webp', alt: { es: 'El polo sur celeste fotografiado durante tres horas.', en: 'The south celestial pole photographed for three hours.' } },
-            { src: 'nightsky_002.webp', alt: { es: 'Observatorio Collowara con una parte de la Vía Láctea visible.', en: 'Collowara Observatory with part of the Milky Way visible.' } },
-            { src: 'nightsky_003_2.webp', alt: { es: 'Entrada del Observatorio Collowara con la galaxia sobre él.', en: 'Entrance to Collowara Observatory with the galaxy above it.' } },
-            { src: 'nightsky_004.webp', alt: { es: 'Nebulosa de Orión fotografiada en Andacollo.', en: 'Orion Nebula photographed in Andacollo.' } },
-            { src: 'nightsky_005.webp', alt: { es: 'Cometa Leonard C/2021 A1', en: 'Comet Leonard C/2021 A1' } },
+            {
+                src: 'nightsky_001.webp',
+                alt: {
+                    es: 'El polo sur celeste fotografiado durante tres horas.',
+                    en: 'The south celestial pole photographed for three hours.'
+                }
+            },
+            {
+                src: 'nightsky_002.webp',
+                alt: {
+                    es: 'Observatorio Collowara con una parte de la Vía Láctea visible.',
+                    en: 'Collowara Observatory with part of the Milky Way visible.'
+                }
+            },
+            {
+                src: 'nightsky_003_2.webp',
+                alt: {
+                    es: 'Entrada del Observatorio Collowara con la galaxia sobre él.',
+                    en: 'Entrance to Collowara Observatory with the galaxy above it.'
+                }
+            },
+            {
+                src: 'nightsky_004.webp',
+                alt: {
+                    es: 'Nebulosa de Orión fotografiada en Andacollo.',
+                    en: 'Orion Nebula photographed in Andacollo.'
+                }
+            },
+            {
+                src: 'nightsky_005.webp',
+                alt: {
+                    es: 'Cometa Leonard C/2021 A1',
+                    en: 'Comet Leonard C/2021 A1'
+                }
+            },
         ],
         departing_place: 'Hostal Luna Del Mar, Isabel Riquelme 840, La Serena',
         departing_time: '19:30',
@@ -125,8 +197,20 @@ export const tours: Tour[] = [
             en: 'Cerro Tololo Observatory is one of the most impactful observatories.'
         },
         gallery: [
-            { src: 'observatories_001.webp', alt: { es: 'El Observatorio Cerro Tololo es uno de los más impactantes.', en: 'Cerro Tololo Observatory is one of the most impactful observatories.' } },
-            { src: 'nightsky_001.webp', alt: { es: 'El polo sur celeste fotografiado durante tres horas.', en: 'The south celestial pole photographed over three hours.' } },
+            {
+                src: 'observatories_001.webp',
+                alt: {
+                    es: 'El Observatorio Cerro Tololo es uno de los más impactantes.',
+                    en: 'Cerro Tololo Observatory is one of the most impactful observatories.'
+                }
+            },
+            {
+                src: 'nightsky_001.webp',
+                alt: {
+                    es: 'El polo sur celeste fotografiado durante tres horas.',
+                    en: 'The south celestial pole photographed over three hours.'
+                }
+            },
         ],
         departing_place: 'Hostal Luna Del Mar, Isabel Riquelme 840, La Serena',
         departing_time: '',
@@ -166,11 +250,41 @@ export const tours: Tour[] = [
             en: 'Fio Fio is a migrant bird, here it is perching on an Espino branch.'
         },
         gallery: [
-            { src: "birdwatching_001.webp", alt: { es: 'Garza grande buscando alimento en el río Elqui.', en: 'Great Egret looking for food in the Elqui River.' } },
-            { src: "birdwatching_002.webp", alt: { es: 'Zorzal austral cazando lombrices.', en: 'Austral Thrush hunting for worms.' } },
-            { src: "birdwatching_003.webp", alt: { es: 'Cachudito posado en una rama seca.', en: 'Tufted Tit-Tyrant perching on an old branch.' } },
-            { src: "birdwatching_004.webp", alt: { es: 'El Fio Fio es un ave migratoria, aquí posado en una rama de Espino.', en: 'Fio Fio is a migrant bird, here it is perching on an Espino branch.' } },
-            { src: "birdwatching_005.webp", alt: { es: 'Diucón de ojos rojos con su presa, una avispa desafortunada.', en: 'Fire-eyed Diucon with its prey, an unlucky wasp.' } },
+            {
+                src: "birdwatching_001.webp",
+                alt: {
+                    es: 'Garza grande buscando alimento en el río Elqui.',
+                    en: 'Great Egret looking for food in the Elqui River.'
+                }
+            },
+            {
+                src: "birdwatching_002.webp",
+                alt: {
+                    es: 'Zorzal austral cazando lombrices.',
+                    en: 'Austral Thrush hunting for worms.'
+                }
+            },
+            {
+                src: "birdwatching_003.webp",
+                alt: {
+                    es: 'Cachudito posado en una rama seca.',
+                    en: 'Tufted Tit-Tyrant perching on an old branch.'
+                }
+            },
+            {
+                src: "birdwatching_004.webp",
+                alt: {
+                    es: 'El Fio Fio es un ave migratoria, aquí posado en una rama de Espino.',
+                    en: 'Fio Fio is a migrant bird, here it is perching on an Espino branch.'
+                }
+            },
+            {
+                src: "birdwatching_005.webp",
+                alt: {
+                    es: 'Diucón de ojos rojos con su presa, una avispa desafortunada.',
+                    en: 'Fire-eyed Diucon with its prey, an unlucky wasp.'
+                }
+            },
         ],
         departing_place: 'Hostal Luna Del Mar, Isabel Riquelme 840, La Serena',
         departing_time: '',
@@ -251,8 +365,20 @@ export const tours: Tour[] = [
             en: 'The sun rises over the mountains near Combarbalá.'
         },
         gallery: [
-            { src: 'climb_the_andes_001.webp', alt: { es: 'El sol nace sobre las montañas cerca de Combarbalá.', en: 'The sun rises over the mountains near Combarbalá.' } },
-            { src: 'climb_the_andes_002.webp', alt: { es: 'El Cerro Pabellón supera los 4000 msnm.', en: 'Pabellón Peak is over 4000 meters above sea level.' } },
+            {
+                src: 'climb_the_andes_001.webp',
+                alt: {
+                    es: 'El sol nace sobre las montañas cerca de Combarbalá.',
+                    en: 'The sun rises over the mountains near Combarbalá.'
+                }
+            },
+            {
+                src: 'climb_the_andes_002.webp',
+                alt: {
+                    es: 'El Cerro Pabellón supera los 4000 msnm.',
+                    en: 'Pabellón Peak is over 4000 meters above sea level.'
+                }
+            },
         ],
         departing_place: 'Hostal Luna Del Mar, Isabel Riquelme 840, La Serena',
         departing_time: '',
@@ -292,9 +418,27 @@ export const tours: Tour[] = [
             en: 'Beautiful sunset from La Serena with Coquimbo in the background.'
         },
         gallery: [
-            { src: 'something_else_001.webp', alt: { es: 'Andacollo en la noche, hacia la derecha se ve el resplandor de La Serena.', en: 'Andacollo at night, with the glow of La Serena visible to the right.' } },
-            { src: 'something_else_002.webp', alt: { es: 'Hermoso atardecer desde La Serena con Coquimbo al fondo.', en: 'Beautiful sunset from La Serena with Coquimbo in the background.' } },
-            { src: 'something_else_003.webp', alt: { es: 'Hermosas nubes en el atardecer, cerca de Combarbalá.', en: 'Beautiful clouds at sunset, near Combarbalá.' } },
+            {
+                src: 'something_else_001.webp',
+                alt: {
+                    es: 'Andacollo en la noche, hacia la derecha se ve el resplandor de La Serena.',
+                    en: 'Andacollo at night, with the glow of La Serena visible to the right.'
+                }
+            },
+            {
+                src: 'something_else_002.webp',
+                alt: {
+                    es: 'Hermoso atardecer desde La Serena con Coquimbo al fondo.',
+                    en: 'Beautiful sunset from La Serena with Coquimbo in the background.'
+                }
+            },
+            {
+                src: 'something_else_003.webp',
+                alt: {
+                    es: 'Hermosas nubes en el atardecer, cerca de Combarbalá.',
+                    en: 'Beautiful clouds at sunset, near Combarbalá.'
+                }
+            },
         ],
         departing_place: 'Hostal Luna Del Mar, Isabel Riquelme 840, La Serena',
         departing_time: '',
@@ -334,9 +478,27 @@ export const tours: Tour[] = [
             en: 'Beautiful sunset from La Serena with Coquimbo in the background.'
         },
         gallery: [
-            { src: 'something_else_001.webp', alt: { es: 'Andacollo en la noche, hacia la derecha se ve el resplandor de La Serena.', en: 'Andacollo at night, with the glow of La Serena visible to the right.' } },
-            { src: 'something_else_002.webp', alt: { es: 'Hermoso atardecer desde La Serena con Coquimbo al fondo.', en: 'Beautiful sunset from La Serena with Coquimbo in the background.' } },
-            { src: 'something_else_003.webp', alt: { es: 'Hermosas nubes en el atardecer, cerca de Combarbalá.', en: 'Beautiful clouds at sunset, near Combarbalá.' } },
+            {
+                src: 'something_else_001.webp',
+                alt: {
+                    es: 'Andacollo en la noche, hacia la derecha se ve el resplandor de La Serena.',
+                    en: 'Andacollo at night, with the glow of La Serena visible to the right.'
+                }
+            },
+            {
+                src: 'something_else_002.webp',
+                alt: {
+                    es: 'Hermoso atardecer desde La Serena con Coquimbo al fondo.',
+                    en: 'Beautiful sunset from La Serena with Coquimbo in the background.'
+                }
+            },
+            {
+                src: 'something_else_003.webp',
+                alt: {
+                    es: 'Hermosas nubes en el atardecer, cerca de Combarbalá.',
+                    en: 'Beautiful clouds at sunset, near Combarbalá.'
+                }
+            },
         ],
         departing_place: 'Hostal Luna Del Mar, Isabel Riquelme 840, La Serena',
         departing_time: '',
