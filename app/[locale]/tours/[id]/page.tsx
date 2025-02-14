@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { tours } from '../../../data/tours'
+import { tours } from '@/data/tours'
 import Link from 'next/link';
 
 

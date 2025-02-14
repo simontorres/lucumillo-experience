@@ -1,0 +1,12 @@
+{
+    "Navbar": {
+        "brand": "Lucumillo Experience",
+        "tours": "Tours",
+        "bikeRental": "Bike Rental",
+        "about": "About",
+        "contact": "Contact"
+    },
+    "AboutPage": {
+        "title": "About"
+    }
+}

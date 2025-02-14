@@ -1,7 +1,7 @@
 // app/page.tsx
 import React from 'react';
 
-import { tours } from '../../data/tours'
+import { tours } from '@/data/tours'
 import ToursGrid from '@/components/ToursGrid';
 import Link from 'next/link';
 

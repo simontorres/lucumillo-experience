@@ -1,10 +1,14 @@
 "use client";
+
 import React, { useState } from "react";
 import Link from "next/link";
 import ThemeToggle from "./ThemeToggle";
+import { useTranslations } from "next-intl";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const t = useTranslations("Navbar");
 
   return (
     <nav className="bg-lime-600 text-white p-4">
@@ -13,32 +17,26 @@ export default function Navbar() {
         <div className="flex items-center gap-8">
           {/* Logo */}
           <Link href="/">
-            <p className="text-2xl font-bold cursor-pointer">Lucumillo Experience</p>
+            <p className="text-2xl font-bold cursor-pointer">{t("brand")}</p>
           </Link>
 
-          {/* Nav Elements (Visible Only on Medium+ Screens) */}
+          {/* Desktop Nav Links */}
           <div className="hidden md:flex gap-4">
-            <Link href="/tours">
-              <p className="hover:underline cursor-pointer">Tours</p>
-            </Link>
-            <Link href="/arriendo-de-bicicletas">
-              <p className="hover:underline cursor-pointer">Arriendo de Bicicletas</p>
-            </Link>
-            <Link href="/nosotros">
-              <p className="hover:underline cursor-pointer">Nosotros</p>
-            </Link>
-            <Link href="/contacto">
-              <p className="hover:underline cursor-pointer">Contacto</p>
-            </Link>
+            <Link href="/tours" className="hover:underline">{t("tours")}</Link>
+            <Link href="/arriendo-de-bicicletas" className="hover:underline">{t("bikeRental")}</Link>
+            <Link href="/nosotros" className="hover:underline">{t("about")}</Link>
+            <Link href="/contacto" className="hover:underline">{t("contact")}</Link>
           </div>
         </div>
 
-        {/* Right Section: Theme Toggle & Hamburger */}
+        {/* Right Section: Theme Toggle & Language Switcher */}
         <div className="flex items-center gap-4">
-          {/* Theme Toggle Always Visible */}
           <ThemeToggle />
+          <div className="hidden md:block">
+            <LanguageSwitcher />
+          </div>
 
-          {/* Hamburger Button (Mobile Only) */}
+          {/* Mobile Menu Button */}
           <button
             className="md:hidden flex items-center px-3 py-2 border border-white rounded"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -60,27 +58,22 @@ export default function Navbar() {
             </svg>
           </button>
         </div>
-
-        {/* Mobile Menu (Hidden by Default) */}
-        <div
-          className={`${
-            isMenuOpen ? "block" : "hidden"
-          } md:hidden absolute top-16 left-0 w-full bg-lime-600 shadow-lg`}
-        >
-          <Link href="/tours">
-            <p className="px-4 py-2 hover:bg-lime-700">Tours</p>
-          </Link>
-          <Link href="/arriendo-de-bicicletas">
-            <p className="px-4 py-2 hover:bg-lime-700">Arriendo de Bicicletas</p>
-          </Link>
-          <Link href="/nosotros">
-            <p className="px-4 py-2 hover:bg-lime-700">Nosotros</p>
-          </Link>
-          <Link href="/contacto">
-            <p className="px-4 py-2 hover:bg-lime-700">Contacto</p>
-          </Link>
-        </div>
       </div>
+
+      {/* Mobile Menu */}
+      {isMenuOpen && (
+        <div className="md:hidden absolute top-16 left-0 w-full bg-lime-600 shadow-lg">
+          <Link href="/tours" className="block px-4 py-2 hover:bg-lime-700">{t("tours")}</Link>
+          <Link href="/arriendo-de-bicicletas" className="block px-4 py-2 hover:bg-lime-700">{t("bikeRental")}</Link>
+          <Link href="/nosotros" className="block px-4 py-2 hover:bg-lime-700">{t("about")}</Link>
+          <Link href="/contacto" className="block px-4 py-2 hover:bg-lime-700">{t("contact")}</Link>
+          
+          {/* Language Switcher inside mobile menu */}
+          <div className="flex justify-center py-2">
+            <LanguageSwitcher />
+          </div>
+        </div>
+      )}
     </nav>
   );
 }

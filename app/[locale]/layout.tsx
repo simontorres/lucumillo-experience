@@ -1,35 +1,29 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "@/app/globals.css";
 
 import Navbar from "@/components/Navbar";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import { getMessages } from 'next-intl/server';
+import { NextIntlClientProvider } from "next-intl";
 
 export const metadata: Metadata = {
   title: "Lucumillo Experience",
   description: "Personalized Tours in La Serena",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params
 }: Readonly<{
   children: React.ReactNode;
+  params: {locale: string}
 }>) {
+  const locale = (await params).locale
+  const messages = await getMessages()
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <div className="min-h-screen flex flex-col">
+    <html lang={locale}>
+      <body>
+        <NextIntlClientProvider messages={messages}>
+          <div className="min-h-screen flex flex-col">
           {/* Navbar */}
           <Navbar />
        
@@ -56,6 +50,8 @@ export default function RootLayout({
             <p>&copy; {new Date().getFullYear()} Lucumillo Experience. All rights reserved.</p>
           </footer>
         </div>
+        </NextIntlClientProvider>
+        
       </body>
     </html>
   );
