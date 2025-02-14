@@ -3,8 +3,14 @@ import { Service } from "@/interfaces";
 export const services: Service[] = [
   {
     id: "1",
-    title: "Tours",
-    description: "",
+    title: {
+      en: "Tours",
+      es: "Tours"
+    },
+    description: {
+      en: "",
+      es: ""
+    },
     path: "tours",
     gallery: [
       { src: "/images/services/xs/nightsky_001.webp", alt: "" },
@@ -20,8 +26,14 @@ export const services: Service[] = [
   },
   {
     id: "2",
-    title: "Arriendo de Bicicletas",
-    description: "",
+    title: {
+      en: "Bike Rental",
+      es: "Arriendo de Bicicletas"
+    },
+    description: {
+      en: "",
+      es: ""
+    },
     path: "arriendo-de-bicicletas",
     gallery: [
       { src: "/images/services/xs/bicycles_001.webp", alt: "" },

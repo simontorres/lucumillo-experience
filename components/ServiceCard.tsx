@@ -3,10 +3,12 @@ import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { Service } from "@/interfaces";
+import { useLocale } from "next-intl";
 
 
 export const ServiceCard = ({ service }: { service: Service}) => {
-    const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const currentLocale = useLocale()
   
     useEffect(() => {
       const interval = setInterval(() => {
@@ -27,8 +29,8 @@ export const ServiceCard = ({ service }: { service: Service}) => {
             className="w-full h-80 object-cover transition-opacity duration-500"
           />
           <div className="p-4 flex-grow flex flex-col">
-            <h2 className="text-2xl font-bold mb-2">{service.title}</h2>
-            <p className="dark:text-gray-300 flex-grow">{service.description}</p>
+            <h2 className="text-2xl font-bold mb-2">{service.title[currentLocale]}</h2>
+            <p className="dark:text-gray-300 flex-grow">{service.description[currentLocale]}</p>
           </div>
         </div>
       </Link>

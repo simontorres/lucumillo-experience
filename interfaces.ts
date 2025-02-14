@@ -2,7 +2,10 @@ export interface GalleryImage {
     src: string
     alt: string
 }
-
+export interface LocalizedText {
+    en: string
+    es: string
+}
 export interface Tour {
     id: string
     title: string
@@ -29,8 +32,8 @@ export interface BicycleRental {
 
 export interface Service {
     id: string
-    title: string
-    description: string
+    title: LocalizedText
+    description: LocalizedText
     path: string
     gallery: GalleryImage[]
     enabled: boolean
