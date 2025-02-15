@@ -1,0 +1,42 @@
+{
+    "Navbar": {
+        "brand": "Lucumillo Expérience",
+        "tours": "Excursions",
+        "bikeRental": "Location de vélos",
+        "about": "À propos",
+        "contact": "Contact"
+    },
+    "HomePage": {
+        "title": "Bienvenue chez Lucumillo Expérience",
+        "summary": "Nous proposons des excursions personnalisées pour l'observation des baleines et la découverte du ciel nocturne dans le nord du Chili. Nous proposons également la location de vélos."
+    },
+    "ToursIndex": {
+        "goBack": "Retour à l'accueil",
+        "title": "Excursions",
+        "summary": "Nous proposons des excursions personnalisées pour l'observation des baleines et la découverte du ciel nocturne dans le nord du Chili."
+    },
+    "ToursDetails": {
+        "goBack": "Retour aux excursions",
+        "whatIsIncluded":"Ce qui est inclus",
+        "price": "Prix",
+        "seats": "Places",
+        "departingPlace": "Lieu de départ",
+        "departingTime": "Heure de départ",
+        "toBeDefined": "À définir"
+    },
+    "BikeRental": {
+        "goBack": "Retour à l'accueil",
+        "title": "Location de vélos",
+        "summary": "Découvrez La Serena à vélo. Une destination populaire est de longer l'Avenida del Mar, située à environ cinq minutes.",
+        "price":"Prix",
+        "perHour": "par heure",
+        "whatIsIncluded":"Ce qui est inclus",
+        "where": "Où"
+    },
+    "AnimatedGallery": {
+        "close": "Fermer"
+    },
+    "AboutPage": {
+        "title": "À propos"
+    }
+}

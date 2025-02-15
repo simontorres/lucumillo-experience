@@ -1,0 +1,42 @@
+{
+    "Navbar": {
+        "brand": "Lucumillo Erlebnis",
+        "tours": "Touren",
+        "bikeRental": "Fahrradverleih",
+        "about": "Über uns",
+        "contact": "Kontakt"
+    },
+    "HomePage": {
+        "title": "Willkommen bei Lucumillo Erlebnis",
+        "summary": "Wir bieten personalisierte Touren zur Walbeobachtung und zur Erkundung des Nachthimmels im Norden Chiles an. Außerdem bieten wir Fahrradverleih an."
+    },
+    "ToursIndex": {
+        "goBack": "Zurück zur Startseite",
+        "title": "Touren",
+        "summary": "Wir bieten personalisierte Touren zur Walbeobachtung und zur Erkundung des Nachthimmels im Norden Chiles an."
+    },
+    "ToursDetails": {
+        "goBack": "Zurück zu den Touren",
+        "whatIsIncluded":"Was ist inbegriffen",
+        "price": "Preis",
+        "seats": "Sitzplätze",
+        "departingPlace": "Abfahrtsort",
+        "departingTime": "Abfahrtszeit",
+        "toBeDefined": "Noch festzulegen"
+    },
+    "BikeRental": {
+        "goBack": "Zurück zur Startseite",
+        "title": "Fahrradverleih",
+        "summary": "Entdecken Sie La Serena mit einem unserer Fahrräder. Ein beliebtes Ziel ist die Fahrt entlang der Avenida del Mar, die etwa fünf Minuten entfernt liegt.",
+        "price":"Preis",
+        "perHour": "pro Stunde",
+        "whatIsIncluded":"Was ist inbegriffen",
+        "where": "Wo"
+    },
+    "AnimatedGallery": {
+        "close": "Schließen"
+    },
+    "AboutPage": {
+        "title": "Über uns"
+    }
+}
