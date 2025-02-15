@@ -25,6 +25,16 @@ export const tours: Tour[] = [
                 "Embark on an unforgettable journey to Chañaral de Aceituno, a picturesque coastal town located along the Humboldt Current in Chile. This cold, nutrient-rich current flows north from Antarctica, creating an ideal habitat for an incredible variety of marine life, including majestic whales.",
                 "Your adventure begins with a two-hour boat ride into the pristine waters of the Pacific Ocean. Guided by experienced boat operators, you will sail through these life-filled seas in search of some of the most impressive creatures on the planet. Whale sightings vary according to their natural patterns, and while there is a small chance we may not find them, their presence is a frequent and fascinating spectacle.",
                 "Our tours follow strict guidelines to ensure that whales are observed responsibly. These gentle giants are kept at a safe distance, allowing them to move freely in their natural environment while giving you the opportunity to appreciate their grandeur without causing them any disturbance."
+            ],
+            de: [
+                "Begib dich auf eine unvergessliche Reise nach Chañaral de Aceituno, einem malerischen Küstenort entlang des Humboldtstroms in Chile. Diese kalte, nährstoffreiche Meeresströmung fließt von der Antarktis nach Norden und schafft einen idealen Lebensraum für eine erstaunliche Vielfalt an Meereslebewesen, darunter majestätische Wale.",
+                "Dein Abenteuer beginnt mit einer zweistündigen Bootsfahrt in die unberührten Gewässer des Pazifischen Ozeans. Unter der Leitung erfahrener Bootsführer fährst du durch diese lebensreichen Meere auf der Suche nach einigen der beeindruckendsten Kreaturen des Planeten. Walsichtungen variieren je nach natürlichen Mustern, und obwohl es eine kleine Möglichkeit gibt, keine Wale zu sehen, ist ihre Präsenz ein häufiges und faszinierendes Schauspiel.",
+                "Unsere Touren folgen strengen Richtlinien, um sicherzustellen, dass die Wale verantwortungsbewusst beobachtet werden. Diese sanften Riesen werden aus einer sicheren Entfernung betrachtet, sodass sie sich frei in ihrer natürlichen Umgebung bewegen können und du ihre beeindruckende Größe in voller Pracht erleben kannst, ohne sie zu stören."
+            ],
+            fr: [
+                "Partez pour un voyage inoubliable à Chañaral de Aceituno, un charmant village côtier situé le long du courant de Humboldt au Chili. Ce courant marin froid et riche en nutriments s'écoule vers le nord depuis l'Antarctique, créant un habitat idéal pour une incroyable diversité de vie marine, y compris les majestueuses baleines.",
+                "Votre aventure commence par une excursion en bateau de deux heures dans les eaux immaculées de l'océan Pacifique. Guidé par des opérateurs de bateaux expérimentés, vous naviguerez dans ces mers riches en vie à la recherche de quelques-unes des créatures les plus impressionnantes de la planète. Les observations de baleines varient en fonction de leurs comportements naturels, et bien qu'il existe une faible possibilité de ne pas en apercevoir, leur présence est un spectacle fréquent et fascinant.",
+                "Nos excursions suivent des règles strictes pour garantir une observation responsable des baleines. Ces géants paisibles sont observés à une distance sécurisée, leur permettant d'évoluer librement dans leur environnement naturel et vous offrant la possibilité d'admirer leur splendeur sans les perturber."
             ]
         },
         includes: {
@@ -32,7 +42,7 @@ export const tours: Tour[] = [
             en: 'Round-trip travel, whale-watching tour entry, and lunch.',
             de: 'Hin- und Rückfahrt, Eintritt zur Walbeobachtung und Mittagessen.',
             fr: 'Transport aller-retour, entrée pour l’observation des baleines et déjeuner.'
-        },
+        },        
         price: 0,
         seats: 9,
         image: 'whales_005.webp',
@@ -41,7 +51,7 @@ export const tours: Tour[] = [
             en: 'Whale fluke or tail, just before diving.',
             de: 'Walflosse oder Schwanz, kurz vor dem Abtauchen.',
             fr: 'Queue de baleine, juste avant la plongée.'
-        },
+        },        
         gallery: [
             {
                 src: 'whales_001.webp',
@@ -135,6 +145,16 @@ export const tours: Tour[] = [
                 "Embark on an unforgettable journey under some of the world's clearest night skies. The Collowara Observatory, located in the heart of northern Chile, offers the perfect place to immerse yourself in the celestial wonders that have fascinated humanity for centuries. Guided by astronomy experts, you will explore a variety of breathtaking celestial objects, including stars, planets, nebulae, and distant galaxies. What you see will depend on the season and the Moon's phase, making each visit unique. On moonless nights, the Milky Way reveals its astonishing details, while a full moon allows for a detailed view of craters and lunar formations.",
                 "This carefully designed tour ensures that even the rare chance of cloudy skies will not dim the magic of the night. Our expert guides will enrich your understanding of the universe through fascinating stories, historical facts, and scientific insights, making this experience as educational as it is inspiring.",
                 "Discover why Collowara’s skies are recognized as some of the clearest on the planet and create memories that will last a lifetime."
+            ],
+            de: [
+                "Begib dich auf eine unvergessliche Reise unter den klarsten Nachthimmeln der Welt. Das Observatorium Collowara, das im Herzen Nordchiles liegt, bietet den perfekten Ort, um in die Wunder des Universums einzutauchen, die die Menschheit seit Jahrhunderten faszinieren. Unter der Anleitung von Astronomie-Experten erkundest du eine Vielzahl beeindruckender Himmelsobjekte, darunter Sterne, Planeten, Nebel und ferne Galaxien. Was du sehen wirst, hängt von der Jahreszeit und der Mondphase ab, was jede Tour einzigartig macht. In mondlosen Nächten offenbart sich die Milchstraße in ihrer ganzen Pracht, während bei Vollmond die Krater und Formationen der Mondoberfläche deutlich erkennbar sind.",
+                "Diese Tour ist so konzipiert, dass selbst die seltene Möglichkeit bewölkter Nächte die Magie des Erlebnisses nicht trüben kann. Unsere erfahrenen Guides bereichern dein Verständnis des Universums mit faszinierenden Geschichten, historischen Fakten und wissenschaftlichen Erklärungen und machen diese Erfahrung sowohl lehrreich als auch inspirierend.",
+                "Entdecke, warum die Himmel von Collowara als einige der klarsten auf dem Planeten gelten, und schaffe Erinnerungen, die ein Leben lang bleiben."
+            ],
+            fr: [
+                "Partez pour un voyage inoubliable sous les cieux nocturnes les plus clairs du monde. L'observatoire de Collowara, situé au cœur du nord du Chili, offre l'endroit parfait pour vous immerger dans les merveilles célestes qui fascinent l'humanité depuis des siècles. Sous la conduite d'experts en astronomie, vous découvrirez une variété d'objets célestes impressionnants, tels que des étoiles, des planètes, des nébuleuses et des galaxies lointaines. Ce que vous verrez dépendra de la saison et de la phase de la Lune, rendant chaque visite unique. Lors des nuits sans lune, la Voie lactée révèle ses incroyables détails, tandis qu'une pleine lune permet d'observer de près les cratères et les formations lunaires.",
+                "Cette excursion est conçue de manière à ce que même la rare possibilité d'un ciel nuageux ne puisse pas diminuer la magie de l'expérience. Nos guides expérimentés enrichiront votre compréhension de l'univers grâce à des histoires fascinantes, des faits historiques et des explications scientifiques, rendant cette expérience à la fois éducative et inspirante.",
+                "Découvrez pourquoi les cieux de Collowara sont reconnus comme étant parmi les plus clairs de la planète et créez des souvenirs qui dureront toute une vie."
             ]
         },
         includes: {
@@ -142,7 +162,7 @@ export const tours: Tour[] = [
             en: 'Round-trip travel and tour entry.',
             de: 'Hin- und Rückfahrt und Eintritt zur Tour.',
             fr: 'Transport aller-retour et entrée à la visite.'
-        },
+        },        
         price: 38000,
         seats: 9,
         image: 'nightsky_004.webp',
@@ -151,7 +171,7 @@ export const tours: Tour[] = [
             en: 'Orion Nebula photographed in Andacollo.',
             de: 'Orionnebel in Andacollo fotografiert.',
             fr: 'Nébuleuse d’Orion photographiée à Andacollo.'
-        },
+        },        
         gallery: [
             {
                 src: 'nightsky_001.webp',
@@ -198,7 +218,7 @@ export const tours: Tour[] = [
                     fr: 'Comète Leonard C/2021 A1'
                 }
             }
-        ],
+        ],        
         departing_place: 'Hostal Luna Del Mar, Isabel Riquelme 840, La Serena',
         departing_time: '19:30',
         enabled: true
@@ -223,6 +243,16 @@ export const tours: Tour[] = [
                 "Discover the impressive astronomical observatories of the Coquimbo region, home to some of the world's most advanced telescopes. Located atop mountains over 2,000 meters high, these scientific centers offer a unique window into the universe.",
                 "You will visit iconic observatories such as Cerro Tololo, La Silla, and Gemini South, where astronomers from around the world study the secrets of the cosmos. During the tour, you’ll learn about telescope technology, ongoing research, and the significance of this region for astronomy.",
                 "If you are passionate about space and exploration, this tour will provide you with an unforgettable experience, bringing you closer to the science that unveils the mysteries of the universe."
+            ],
+            de: [
+                "Entdecke die beeindruckenden astronomischen Observatorien der Region Coquimbo, die Heimat einiger der fortschrittlichsten Teleskope der Welt. Diese wissenschaftlichen Einrichtungen, die sich auf Berggipfeln in über 2.000 Metern Höhe befinden, bieten ein einzigartiges Fenster zum Universum.",
+                "Du wirst ikonische Observatorien wie Cerro Tololo, La Silla und Gemini Süd besuchen, wo Astronomen aus aller Welt die Geheimnisse des Kosmos erforschen. Während der Führung erfährst du mehr über die Technologie der Teleskope, aktuelle Forschungsprojekte und die Bedeutung dieser Region für die Astronomie.",
+                "Wenn du dich für den Weltraum und seine Erkundung begeisterst, wird dir diese Tour ein unvergessliches Erlebnis bieten und dir die faszinierende Wissenschaft näherbringen, die die Geheimnisse des Universums entschlüsselt."
+            ],
+            fr: [
+                "Découvrez les impressionnants observatoires astronomiques de la région de Coquimbo, qui abrite certains des télescopes les plus avancés au monde. Ces centres scientifiques, perchés sur des sommets à plus de 2 000 mètres d'altitude, offrent une fenêtre unique sur l'univers.",
+                "Vous visiterez des observatoires emblématiques tels que Cerro Tololo, La Silla et Gemini Sud, où des astronomes du monde entier étudient les secrets du cosmos. Lors de la visite, vous en apprendrez davantage sur la technologie des télescopes, les recherches en cours et l'importance de cette région pour l'astronomie.",
+                "Si vous êtes passionné par l'espace et l'exploration, cette excursion vous offrira une expérience inoubliable, vous permettant de découvrir la science fascinante qui dévoile les mystères de l'univers."
             ]
         },
         includes: {
@@ -276,6 +306,16 @@ export const tours: Tour[] = [
                 "Explore the incredible bird diversity of the Coquimbo region. Our wetlands, valleys, and coastal areas are home to a wide variety of species, from permanent residents to migratory visitors that arrive in different seasons of the year.",
                 "You will observe majestic herons hunting for food, energetic flycatchers darting through the air, and iconic birds like the Fire-eyed Diucon or the Fio Fio, which migrates thousands of kilometers from the Amazon to Chile every year.",
                 "Whether you're a seasoned birder or just a nature enthusiast, this tour offers you the chance to immerse yourself in the fascinating world of birds and enjoy the serenity of their natural habitats."
+            ],
+            de: [
+                "Erkunde die erstaunliche Vielfalt an Vögeln, die in der Region Coquimbo beheimatet sind. Unsere Feuchtgebiete, Täler und Küstengebiete bieten einer großen Vielzahl von Arten ein Zuhause – von dauerhaft ansässigen bis hin zu Zugvögeln, die zu verschiedenen Jahreszeiten ankommen.",
+                "Du kannst majestätische Reiher auf Nahrungssuche beobachten, kleine und energiegeladene Tyrannenfliegenschnäpper und ikonische Vögel wie den rotäugigen Diucón oder den Fio Fio, der jedes Jahr Tausende von Kilometern vom Amazonas nach Chile reist.",
+                "Egal, ob du ein erfahrener Ornithologe oder ein begeisterter Naturliebhaber bist, diese Tour bietet dir die Möglichkeit, in die faszinierende Welt der Vögel einzutauchen und die Ruhe ihrer natürlichen Lebensräume zu genießen."
+            ],
+            fr: [
+                "Explorez la diversité incroyable des oiseaux qui habitent la région de Coquimbo. Nos zones humides, vallées et littoraux abritent une grande variété d'espèces, allant des résidents permanents aux visiteurs migrateurs qui arrivent à différentes saisons de l'année.",
+                "Vous pourrez observer des hérons majestueux en quête de nourriture, de petits et énergiques tyranneaux et des oiseaux emblématiques comme le Diucón aux yeux rouges ou le Fio Fio, qui migre chaque année sur des milliers de kilomètres depuis l'Amazonie jusqu'au Chili.",
+                "Que vous soyez un ornithologue expérimenté ou simplement un passionné de nature, cette excursion vous offre l'opportunité de plonger dans le monde fascinant des oiseaux et de profiter de la tranquillité de leurs habitats naturels."
             ]
         },
         includes: {
@@ -350,6 +390,16 @@ export const tours: Tour[] = [
                 "Discover the charm of the Elqui Valley, a region filled with breathtaking landscapes, clear skies, and a vibrant culture. This valley is famous for its pisco production, vineyards, and a unique atmosphere that has inspired artists and travelers for generations.",
                 "We will visit iconic towns like Vicuña, birthplace of poet Gabriela Mistral, and Montegrande, where the Nobel Prize winner lived and worked. You’ll learn about local history and traditions while exploring artisan markets and tasting regional specialties.",
                 "The valley is also known for its mystical energy, with meditation centers and opportunities for astronomical observation. Whether you're looking for a cultural, gastronomic, or nature-focused experience, the Elqui Valley has something for you."
+            ],
+            de: [
+                "Entdecke den Charme des Elqui-Tals, einer Region voller atemberaubender Landschaften, klarer Himmel und lebendiger Kultur. Dieses Tal ist berühmt für seine Pisco-Produktion, Weinberge und eine einzigartige Atmosphäre, die Künstler und Reisende seit Generationen inspiriert hat.",
+                "Wir werden durch charakteristische Dörfer wie Vicuña, die Geburtsstadt der Dichterin Gabriela Mistral, und Montegrande, wo die Nobelpreisträgerin lebte und arbeitete, spazieren. Du wirst mehr über die Geschichte und die lokalen Traditionen erfahren, Kunsthandwerksmärkte erkunden und typische regionale Produkte verkosten.",
+                "Darüber hinaus ist das Tal für seine mystische Energie bekannt, mit zahlreichen Meditationszentren und astronomischen Beobachtungsstationen. Egal, ob du eine kulturelle, gastronomische oder einfach nur eine Naturerfahrung suchst – das Elqui-Tal hat für jeden etwas zu bieten."
+            ],
+            fr: [
+                "Découvrez le charme de la vallée de l'Elqui, une région pleine de paysages époustouflants, de ciels dégagés et d'une culture vibrante. Cette vallée est célèbre pour sa production de pisco, ses vignobles et son atmosphère unique qui inspire artistes et voyageurs depuis des générations.",
+                "Nous visiterons des villages emblématiques comme Vicuña, ville natale de la poétesse Gabriela Mistral, et Montegrande, où la lauréate du prix Nobel de littérature a vécu et travaillé. Vous en apprendrez davantage sur l'histoire et les traditions locales, en explorant les marchés d'artisanat et en dégustant des produits typiques de la région.",
+                "De plus, la vallée est connue pour son énergie mystique, avec divers centres de méditation et d'observation astronomique. Que vous recherchiez une expérience culturelle, gastronomique ou simplement un moment de détente au cœur de la nature, la vallée de l'Elqui saura vous séduire."
             ]
         },
         includes: {
@@ -391,6 +441,16 @@ export const tours: Tour[] = [
                 "Embark on an unforgettable adventure in the Chilean Andes, home to majestic peaks and breathtaking landscapes. From beginner-friendly hikes to challenging climbs above 4,000 meters, we offer experiences for all skill levels.",
                 "Discover the beauty of the Andes as you explore trails that have been traversed by generations of adventurers and mountaineers. Our expert guides will accompany you every step of the way, ensuring a safe and enriching experience.",
                 "Whether you seek a one-day trek with panoramic views or a high-altitude expedition, we help you find the perfect adventure for you."
+            ],
+            de: [
+                "Begib dich auf ein unvergessliches Abenteuer in den chilenischen Anden, der Heimat majestätischer Gipfel und atemberaubender Landschaften. Von leicht zugänglichen Bergen für Anfänger bis hin zu anspruchsvollen Aufstiegen über 4.000 Meter bieten wir Erlebnisse für jedes Niveau.",
+                "Entdecke die Schönheit der Andenkordillere, während du dich auf Pfaden bewegst, die seit Generationen von Entdeckern und Bergsteigern begangen wurden. Unsere erfahrenen Guides begleiten dich auf jedem Schritt des Weges und sorgen für ein sicheres und bereicherndes Erlebnis.",
+                "Egal, ob du eine Tageswanderung mit Panoramablick oder eine anspruchsvolle Hochgebirgsexpedition suchst – wir helfen dir, das perfekte Abenteuer zu finden."
+            ],
+            fr: [
+                "Partez pour une aventure inoubliable dans les Andes chiliennes, où des sommets majestueux et des paysages à couper le souffle vous attendent. Des montagnes accessibles aux débutants aux ascensions exigeantes dépassant les 4 000 mètres, nous proposons des expériences adaptées à tous les niveaux.",
+                "Découvrez la beauté de la cordillère des Andes en empruntant des sentiers parcourus par des générations d'explorateurs et d'alpinistes. Nos guides expérimentés vous accompagneront à chaque étape, garantissant une expérience sûre et enrichissante.",
+                "Que vous cherchiez une randonnée d'une journée avec des vues panoramiques ou une expédition en haute montagne, nous vous aiderons à trouver l'aventure idéale."
             ]
         },
         includes: {
@@ -448,6 +508,16 @@ export const tours: Tour[] = [
                 "Are you a traveler with unique interests looking for something truly special? We can customize your experience to match your passions and curiosities. Whether it’s exploring the art of fishing, marveling at the diversity of bird species in their natural habitats, or visiting the world's largest astronomical observatories, the options are as varied as they are fascinating.",
                 "From the serene beauty of the Elqui Valley, known for its vineyards and pisco production, to the challenge of high-altitude adventures exceeding 6,000 meters, there is something here for everyone. For those drawn to arid landscapes, our proximity to the desert offers opportunities for exploration and discovery in one of the driest regions on the planet.",
                 "Let us help you create a tour tailored to your specific interests so you can experience the extraordinary adventures waiting for you in this region. Whatever your passion, we’ll help you find the perfect journey."
+            ],
+            de: [
+                "Bist du ein Reisender mit einzigartigen Interessen, der nach etwas wirklich Besonderem sucht? Wir können dein Erlebnis ganz nach deinen Leidenschaften und Vorlieben gestalten. Ob es darum geht, die Kunst des Angelns zu entdecken, die Vielfalt der Vogelwelt in ihrem natürlichen Lebensraum zu bestaunen oder die größten astronomischen Observatorien der Welt zu besuchen – die Möglichkeiten sind ebenso vielfältig wie faszinierend.",
+                "Von der ruhigen Schönheit des Elqui-Tals, das für seine Weinberge und die Pisco-Produktion bekannt ist, bis hin zu abenteuerlichen Erkundungen in Höhen von über 6.000 Metern gibt es hier für jeden etwas. Für diejenigen, die von trockenen Landschaften fasziniert sind, bietet unsere Nähe zur Wüste Gelegenheiten, eine der trockensten Regionen der Welt zu erkunden.",
+                "Lass uns dir helfen, eine Tour zusammenzustellen, die genau auf deine Interessen zugeschnitten ist, damit du die außergewöhnlichen Erlebnisse entdecken kannst, die in dieser Region auf dich warten. Was auch immer deine Leidenschaft ist – wir helfen dir, das perfekte Abenteuer zu finden."
+            ],
+            fr: [
+                "Vous êtes un voyageur avec des intérêts uniques à la recherche de quelque chose de vraiment spécial ? Nous pouvons personnaliser votre expérience en fonction de vos passions et de vos curiosités. Que ce soit pour découvrir l'art de la pêche, admirer la diversité des espèces d'oiseaux dans leur habitat naturel ou visiter les plus grands observatoires astronomiques du monde, les options sont aussi nombreuses que fascinantes.",
+                "De la beauté paisible de la vallée de l'Elqui, réputée pour ses vignobles et sa production de pisco, aux aventures palpitantes à plus de 6 000 mètres d'altitude, il y a ici de quoi satisfaire tout le monde. Pour ceux attirés par les paysages arides, notre proximité avec le désert offre des opportunités d'exploration dans l'une des régions les plus sèches de la planète.",
+                "Laissez-nous vous aider à créer un circuit adapté à vos intérêts afin que vous puissiez découvrir les expériences extraordinaires qui vous attendent dans cette région. Quelle que soit votre passion, nous vous aiderons à trouver l'aventure parfaite."
             ]
         },
         includes: {
@@ -523,6 +593,16 @@ export const tours: Tour[] = [
                 "If you're passionate about astrophotography and looking for the perfect location to capture the night sky, this service is for you. We offer a secure site, far from light pollution, with access to electrical power for your equipment.",
                 "Our privileged location in northern Chile, under one of the world's clearest skies, allows you to photograph the Milky Way, nebulae, star clusters, and galaxies with impressive clarity.",
                 "This service is designed for independent astrophotographers who need a dedicated space for long capturing sessions without interruptions. Contact us for more details and availability."
+            ],
+            de: [
+                "Wenn du ein begeisterter Astrofotograf bist und nach dem idealen Ort suchst, um den Nachthimmel einzufangen, ist dieser Service genau das Richtige für dich. Wir bieten dir einen sicheren Standort, fernab von Lichtverschmutzung, mit Zugang zu Strom für deine Ausrüstung.",
+                "Unsere privilegierte Lage im Norden Chiles, unter einem der klarsten Himmel der Welt, ermöglicht es dir, die Milchstraße, Nebel, Sternhaufen und Galaxien mit beeindruckender Klarheit festzuhalten.",
+                "Dieser Service richtet sich an unabhängige Astrofotografen, die einen geeigneten Ort für lange Aufnahmesitzungen ohne Unterbrechungen benötigen. Kontaktiere uns für weitere Informationen und Verfügbarkeit."
+            ],
+            fr: [
+                "Si vous êtes passionné d'astrophotographie et que vous recherchez un endroit idéal pour capturer le ciel nocturne, ce service est fait pour vous. Nous vous proposons un site sécurisé, à l'écart de toute pollution lumineuse, avec un accès à l'électricité pour votre équipement.",
+                "Notre emplacement privilégié dans le nord du Chili, sous l'un des ciels les plus clairs du monde, vous permettra de photographier la Voie lactée, des nébuleuses, des amas d'étoiles et des galaxies avec une clarté impressionnante.",
+                "Ce service est destiné aux astrophotographes indépendants qui recherchent un endroit adapté pour de longues séances de capture sans interruptions. Contactez-nous pour plus d'informations et connaître les disponibilités."
             ]
         },
         includes: {
