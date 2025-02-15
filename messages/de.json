@@ -1,6 +1,6 @@
 {
     "Navbar": {
-        "brand": "Lucumillo Erlebnis",
+        "brand": "Lucumillo Experience",
         "tours": "Touren",
         "bikeRental": "Fahrradverleih",
         "about": "Über uns",
@@ -17,7 +17,7 @@
     },
     "ToursDetails": {
         "goBack": "Zurück zu den Touren",
-        "whatIsIncluded":"Was ist inbegriffen",
+        "whatIsIncluded": "Was ist inbegriffen",
         "price": "Preis",
         "seats": "Sitzplätze",
         "departingPlace": "Abfahrtsort",
@@ -28,15 +28,31 @@
         "goBack": "Zurück zur Startseite",
         "title": "Fahrradverleih",
         "summary": "Entdecken Sie La Serena mit einem unserer Fahrräder. Ein beliebtes Ziel ist die Fahrt entlang der Avenida del Mar, die etwa fünf Minuten entfernt liegt.",
-        "price":"Preis",
+        "price": "Preis",
         "perHour": "pro Stunde",
-        "whatIsIncluded":"Was ist inbegriffen",
+        "whatIsIncluded": "Was ist inbegriffen",
         "where": "Wo"
     },
     "AnimatedGallery": {
         "close": "Schließen"
     },
+    "CallToAction": {
+        "interestedInTours": "Interessiert an unseren Touren?",
+        "contactUsWhatsapp": "Kontaktiere uns über WhatsApp"
+    },
     "AboutPage": {
-        "title": "Über uns"
+        "title": "Lucumillo Experience",
+        "introduction": "Wir bieten personalisierte Touren zur Walbeobachtung und zum Sternegucken im Norden Chiles an.",
+        "whyLucumillo": "Warum Lucumillo?",
+        "aboutLucumillo1": "Der Name Lucumillo stammt von *Myrcianthes coquimbensis*, einem seltenen und gefährdeten Strauch, der in den Küstenwüsten Chiles heimisch ist. Seine Verbreitung ist stark eingeschränkt und erstreckt sich nur über einige hundert Kilometer in der Region Coquimbo, wo er zwischen großen Granitfelsen wächst und von den kühlen, feuchten Brisen des Pazifischen Ozeans genährt wird. Der Lucumillo-Strauch ist eng mit diesem einzigartigen Ökosystem verbunden, da er auf spezifische Umweltbedingungen angewiesen ist und durch Lebensraumverlust infolge von Stadtentwicklung und Tourismus bedroht wird.",
+        "aboutLucumillo2": "Wir haben diesen Namen gewählt, um die Widerstandsfähigkeit des Lucumillo zu ehren, der trotz seiner Zerbrechlichkeit unter den rauen Bedingungen der chilenischen Küstenwüste gedeiht. Mit der Wahl dieses Namens möchten wir das Bewusstsein für die Bedeutung des Schutzes sowohl dieser Art als auch ihres empfindlichen Lebensraums schärfen. Auf diese Weise möchten wir zum Schutz dieses außergewöhnlichen Teils des chilenischen Naturerbes beitragen.",
+        "ourGuidesTitle": "Unsere Guides",
+        "ourGuidesDescription": "Wir arbeiten hauptsächlich mit spezialisierten lokalen Guides zusammen, die von den besuchten Orten gestellt werden, damit du von authentischem und fundiertem Wissen profitierst. Zusätzlich besteht unser Team aus Guides mit unterschiedlichen Fachgebieten und Interessen – von Naturliebhabern bis hin zu Astronomie-Experten, die ihre einzigartigen Perspektiven und Kenntnisse gerne mit dir teilen. Gemeinsam möchten wir dir eine tiefere Verbindung zu den von dir erkundeten Orten ermöglichen."
+    },
+    "ContactPage": {
+        "title": "Kontaktiere uns!",
+        "subtitle": "Derzeit ist der beste Weg, uns zu erreichen, über WhatsApp.",
+        "sendUsMessages": "Schreib uns eine Nachricht",
+        "writeUsAnEmail": "Schick uns eine E-Mail"
     }
 }

@@ -1,6 +1,6 @@
 {
     "Navbar": {
-        "brand": "Lucumillo Expérience",
+        "brand": "Lucumillo Experience",
         "tours": "Excursions",
         "bikeRental": "Location de vélos",
         "about": "À propos",
@@ -17,7 +17,7 @@
     },
     "ToursDetails": {
         "goBack": "Retour aux excursions",
-        "whatIsIncluded":"Ce qui est inclus",
+        "whatIsIncluded": "Ce qui est inclus",
         "price": "Prix",
         "seats": "Places",
         "departingPlace": "Lieu de départ",
@@ -28,15 +28,31 @@
         "goBack": "Retour à l'accueil",
         "title": "Location de vélos",
         "summary": "Découvrez La Serena à vélo. Une destination populaire est de longer l'Avenida del Mar, située à environ cinq minutes.",
-        "price":"Prix",
+        "price": "Prix",
         "perHour": "par heure",
-        "whatIsIncluded":"Ce qui est inclus",
+        "whatIsIncluded": "Ce qui est inclus",
         "where": "Où"
     },
     "AnimatedGallery": {
         "close": "Fermer"
     },
+    "CallToAction": {
+        "interestedInTours": "Intéressé par nos visites ?",
+        "contactUsWhatsapp": "Contactez-nous via WhatsApp"
+    },
     "AboutPage": {
-        "title": "À propos"
+        "title": "Lucumillo Experience",
+        "introduction": "Nous proposons des visites personnalisées pour observer les baleines et admirer le ciel étoilé dans le nord du Chili.",
+        "whyLucumillo": "Pourquoi Lucumillo ?",
+        "aboutLucumillo1": "Le nom Lucumillo provient de *Myrcianthes coquimbensis*, un arbuste rare et en danger d'extinction, originaire des déserts côtiers du Chili. Sa distribution est très limitée, couvrant seulement quelques centaines de kilomètres dans la région de Coquimbo, où il pousse entre de grands rochers de granit, nourri par les brises fraîches et humides de l'océan Pacifique. Le Lucumillo est étroitement lié à cet écosystème unique, dépendant de conditions environnementales spécifiques et faisant face à des menaces dues à la perte d'habitat causée par le développement urbain et le tourisme.",
+        "aboutLucumillo2": "Nous avons choisi ce nom pour honorer la résilience du Lucumillo, qui, malgré sa fragilité, prospère dans les conditions difficiles du désert côtier chilien. En adoptant ce nom, nous espérons sensibiliser à l'importance de préserver cette espèce et son habitat fragile. Ainsi, nous cherchons à contribuer à la protection de cette partie extraordinaire du patrimoine naturel chilien.",
+        "ourGuidesTitle": "Nos Guides",
+        "ourGuidesDescription": "Nous collaborons principalement avec des guides locaux spécialisés fournis par les sites que nous visitons, garantissant ainsi des connaissances authentiques et approfondies. De plus, notre équipe est composée de guides ayant diverses spécialités et centres d'intérêt – des passionnés de la faune aux experts en astronomie – tous désireux de partager leurs connaissances et perspectives uniques. Ensemble, nous souhaitons vous offrir une connexion plus profonde avec les lieux que vous explorez."
+    },
+    "ContactPage": {
+        "title": "Contactez-nous !",
+        "subtitle": "Pour l'instant, le meilleur moyen de nous contacter est via WhatsApp.",
+        "sendUsMessages": "Envoyez-nous un message",
+        "writeUsAnEmail": "Écrivez-nous un e-mail"
     }
 }

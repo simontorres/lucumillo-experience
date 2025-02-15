@@ -23,7 +23,7 @@ export const ServiceCard = ({ service }: { service: Service}) => {
         <div className="rounded-lg shadow-lg overflow-hidden flex flex-col h-full max-w-[480px] mx-auto">
           <Image
             src={service.gallery[currentIndex].src}
-            alt={service.gallery[currentIndex].alt}
+            alt={service.gallery[currentIndex].alt[currentLocale]}
             width={480}
             height={400}
             className="w-full h-80 object-cover transition-opacity duration-500"

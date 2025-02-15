@@ -6,8 +6,8 @@ import { usePathname, useRouter } from "next/navigation";
 const locales = [
   { code: "en", label: "En" },
   { code: "es", label: "Es" },
-//   { code: "de", label: "De" },
-//   { code: "fr", label: "Fr" },
+  { code: "de", label: "De" },
+  { code: "fr", label: "Fr" },
 ];
 
 export default function LanguageSwitcher() {

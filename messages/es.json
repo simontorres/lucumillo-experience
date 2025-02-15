@@ -36,7 +36,23 @@
     "AnimatedGallery": {
         "close": "Cerrar"
     },
+    "CallToAction": {
+        "interestedInTours": "Interesado en nuestros tours?",
+        "contactUsWhatsapp": "Contáctanos por WhatsApp"
+    },
     "AboutPage": {
-        "title": "Nosotros"
+        "title": "Lucumillo Experience",
+        "introduction": "Ofrecemos tours personalizados para observar ballenas y ver el cielo nocturno en el norte de Chile.",
+        "whyLucumillo": "Porqué Lucumillo?",
+        "aboutLucumillo1": "El nombre Lucumillo proviene de Myrcianthes coquimbensis, un arbusto raro y en peligro de extinción, nativo de los desiertos costeros de Chile. Su distribución es muy limitada, abarcando solo unos pocos cientos de kilómetros en la región de Coquimbo, donde crece entre grandes rocas de granito, alimentado por las frescas y húmedas brisas del océano Pacífico. El arbusto Lucumillo está profundamente ligado a este ecosistema único, dependiendo de condiciones ambientales específicas y enfrentando amenazas debido a la pérdida de hábitat causada por el desarrollo urbano y el turismo.",
+        "aboutLucumillo2": "Elegimos este nombre para honrar la resistencia del Lucumillo, que, a pesar de su fragilidad, prospera en las duras condiciones del desierto costero chileno. Al adoptar este nombre, esperamos generar conciencia sobre la importancia de conservar tanto la especie como su delicado hábitat. De este modo, buscamos contribuir a la protección de esta extraordinaria parte del patrimonio natural de Chile.",
+        "ourGuidesTitle": "Nuestros Guías",
+        "ourGuidesDescription": "Colaboramos principalmente con guías locales especializados proporcionados por los sitios que visitamos, asegurando que disfrutes de un conocimiento auténtico y privilegiado. Además, nuestro equipo incluye guías con diversas especialidades e intereses, desde entusiastas de la vida silvestre hasta expertos en astronomía, apasionados por compartir sus perspectivas y conocimientos únicos. Juntos, buscamos ofrecerte una conexión más profunda con los lugares que exploras."
+    },
+    "ContactPage": {
+        "title": "Contáctanos!",
+        "subtitle": "Por ahora la mejor forma de contactarnos es mediante WhatsApp.",
+        "sendUsMessages": "Envíanos un mensaje",
+        "writeUsAnEmail": "Escríbenos un email"
     }
 }
