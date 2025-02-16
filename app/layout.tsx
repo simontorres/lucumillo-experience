@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import Navbar from "@/components/Navbar";
+import { OurPartnersAndFriends } from "@/components/OurPartnersAndFriends";
+import FloatingWhatsAppButton from "@/components/FloatingWhatsAppButton";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,6 +31,21 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            (function() {
+              const theme = localStorage.getItem('theme');
+              if (
+                theme === 'dark' || 
+                (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)
+              ) {
+                document.documentElement.classList.add('dark');
+              } else {
+                document.documentElement.classList.remove('dark');
+              }
+            })();
+          `
+        }} />
         <div className="min-h-screen flex flex-col">
           {/* Navbar */}
           <Navbar />
@@ -50,6 +67,8 @@ export default function RootLayout({
                 Contáctanos por WhatsApp
               </a>
           </div>
+          <FloatingWhatsAppButton />
+          <OurPartnersAndFriends />
 
           {/* Footer */}
           <footer className="bg-orange-500 text-white p-4 text-center">
