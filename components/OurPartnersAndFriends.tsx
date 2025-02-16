@@ -1,3 +1,4 @@
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import React from 'react';
 
@@ -14,9 +15,10 @@ const partners: Partner[] = [
 ];
 
 export const OurPartnersAndFriends = () => {
+    const t = useTranslations("PartnersAndFriends")
     return (
         <section className="bg-sky-100 dark:bg-slate-700 dark:text-white p-6 h-64 shadow-md">
-            <h2 className="text-2xl font-bold mb-4 text-center">Nuestros Socios y Amigos</h2>
+            <h2 className="text-2xl font-bold mb-4 text-center">{t('partnersAndFriends')}</h2>
             <div className="flex justify-evenly items-center gap-6 h-full">
                 {partners.map((partner) => (
                     <a

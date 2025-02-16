@@ -7,7 +7,7 @@
         "contact": "Contact"
     },
     "HomePage": {
-        "title": "Bienvenue chez Lucumillo Expérience",
+        "title": "Bienvenue chez Lucumillo Experience",
         "summary": "Nous proposons des excursions personnalisées pour l'observation des baleines et la découverte du ciel nocturne dans le nord du Chili. Nous proposons également la location de vélos."
     },
     "ToursIndex": {
@@ -54,5 +54,8 @@
         "subtitle": "Pour l'instant, le meilleur moyen de nous contacter est via WhatsApp.",
         "sendUsMessages": "Envoyez-nous un message",
         "writeUsAnEmail": "Écrivez-nous un e-mail"
+    },
+    "PartnersAndFriends": {
+        "partnersAndFriends": "Nos partenaires et amis"
     }
 }
