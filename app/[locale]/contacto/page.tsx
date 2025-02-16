@@ -5,8 +5,10 @@ import { FaWhatsapp } from "react-icons/fa";
 
 import { socials } from '@/data/socials';
 import { Social } from '@/interfaces';
+import { useTranslations } from 'next-intl';
 
 const Contact = () => {
+  const t = useTranslations("ContactPage")
   const whatsapp: Social | undefined = socials.find(social => social.name === 'whatsapp')
 
   return (
@@ -15,10 +17,10 @@ const Contact = () => {
 
       <main className="flex-grow container mx-auto p-4">
         <h1 className="text-4xl font-bold text-center my-8">
-          Contáctanos!
+          {t('title')}
         </h1>
         <p className="text-center dark:text-gray-300 mb-8">
-          Por ahora la mejor forma de contactarnos es mediante WhatsApp.
+          {t('subtitle')}
         </p>
         {whatsapp ?
           <div className='flex flex-column justify-center'>
@@ -28,7 +30,7 @@ const Contact = () => {
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex items-center gap-2"
             >
-              <FaWhatsapp size={28} /> <span>Envíanos un mensaje</span>
+              <FaWhatsapp size={28} /> <span>{t('sendUsMessages')}</span>
             </Link>
           </div>
           : <></>
@@ -42,7 +44,7 @@ const Contact = () => {
             href={'mailto:lucumilloexperience@gmail.com'}
             className="bg-amber-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
           >
-            Escribenos un email
+            {t('writeUsAnEmail')}
           </Link>
         </div>
         <div className='flex justify-center mt-3'>

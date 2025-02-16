@@ -1,0 +1,61 @@
+{
+    "Navbar": {
+        "brand": "Lucumillo Experience",
+        "tours": "Tours",
+        "bikeRental": "Bike Rental",
+        "about": "About",
+        "contact": "Contact"
+    },
+    "HomePage": {
+        "title": "Welcome to Lucumillo Experience",
+        "summary": "We offer personalized tours for whale whatching and to enjoy the night sky in the north of Chile. We also have bike rentals."
+    },
+    "ToursIndex": {
+        "goBack": "Go back to Home",
+        "title": "Tours",
+        "summary": "We offer personalized tours for whale whatching and to enjoy the night sky in the north of Chile."
+    },
+    "ToursDetails": {
+        "goBack": "Go back to Tours",
+        "whatIsIncluded": "What is Included",
+        "price": "Price",
+        "seats": "Seats",
+        "departingPlace": "Departing Place",
+        "departingTime": "Departing Time",
+        "toBeDefined": "To be defined"
+    },
+    "BikeRental": {
+        "goBack": "Go back to Home",
+        "title": "Bike Rental",
+        "summary": "Discover La Serena on one of our bicycles, a very popular destination is to ride along Avenida del Mar, which is about five minutes away.",
+        "price": "Price",
+        "perHour": "per hour",
+        "whatIsIncluded": "What is Included",
+        "where": "Where"
+    },
+    "AnimatedGallery": {
+        "close": "Close"
+    },
+    "CallToAction": {
+        "interestedInTours": "Interested in our tours?",
+        "contactUsWhatsapp": "Contact us via WhatsApp"
+    },
+    "AboutPage": {
+        "title": "Lucumillo Experience",
+        "introduction": "We offer personalized tours for whale watching and stargazing in northern Chile.",
+        "whyLucumillo": "Why Lucumillo?",
+        "aboutLucumillo1": "The name Lucumillo comes from *Myrcianthes coquimbensis*, a rare and endangered shrub native to Chile's coastal deserts. Its distribution is very limited, covering only a few hundred kilometers in the Coquimbo region, where it grows among large granite rocks, nourished by the cool, humid breezes of the Pacific Ocean. The Lucumillo shrub is deeply connected to this unique ecosystem, relying on specific environmental conditions and facing threats from habitat loss due to urban development and tourism.",
+        "aboutLucumillo2": "We chose this name to honor the resilience of the Lucumillo, which, despite its fragility, thrives in the harsh conditions of the Chilean coastal desert. By adopting this name, we hope to raise awareness about the importance of conserving both the species and its delicate habitat. In this way, we seek to contribute to the protection of this extraordinary part of Chile's natural heritage.",
+        "ourGuidesTitle": "Our Guides",
+        "ourGuidesDescription": "We primarily work with specialized local guides provided by the sites we visit, ensuring you benefit from authentic, insider knowledge. Additionally, our team includes guides with various specialties and interests, from wildlife enthusiasts to astronomy experts, all passionate about sharing their unique perspectives and knowledge. Together, we strive to offer you a deeper connection with the places you explore."
+    },
+    "ContactPage": {
+        "title": "Contact Us!",
+        "subtitle": "For now, the best way to contact us is via WhatsApp.",
+        "sendUsMessages": "Send us a message",
+        "writeUsAnEmail": "Write us an email"
+    },
+    "PartnersAndFriends": {
+        "partnersAndFriends": "Our Partners and Friends"
+    }
+}
