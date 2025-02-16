@@ -4,7 +4,6 @@ import "@/app/globals.css";
 import Navbar from "@/components/Navbar";
 import { getMessages } from 'next-intl/server';
 import { NextIntlClientProvider } from "next-intl";
-import { CallToAction } from "@/components/CallToAction";
 import { OurPartnersAndFriends } from "@/components/OurPartnersAndFriends";
 import FloatingWhatsAppButton from "@/components/FloatingWhatsAppButton";
 
