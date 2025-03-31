@@ -17,7 +17,7 @@ export const OurPartnersAndFriends = () => {
     return (
         <div className="flex-1 p-6">
             <h2 className="text-2xl font-bold mb-4 text-center">Nuestros Socios y Amigos</h2>
-            <div className="flex justify-evenly items-center gap-6 pt-6">
+            <div className="flex justify-evenly items-start gap-6 pt-6">
                 {partners.map((partner) => (
                     <a
                         key={partner.name}
@@ -29,9 +29,9 @@ export const OurPartnersAndFriends = () => {
                         <Image
                             src={partner.logo}
                             alt={partner.name}
-                            width={400}
-                            height={400}
-                            className="w-20 h-20 object-contain rounded-lg scale-125"
+                            width={130}
+                            height={130}
+                            className="h-32 object-contain rounded-lg"
                         />
                         <span className="text-sm text-center">{partner.name}</span>
                     </a>
