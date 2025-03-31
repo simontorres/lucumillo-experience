@@ -4,7 +4,7 @@ import "./globals.css";
 
 import Navbar from "@/components/Navbar";
 import FloatingWhatsAppButton from "@/components/FloatingWhatsAppButton";
-import { OurPartnersAndFriends } from "@/components/OurPartnersAndFriends";
+import { Footer } from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,18 +34,16 @@ export default function RootLayout({
         <div className="min-h-screen flex flex-col">
           {/* Navbar */}
           <Navbar />
-       
+
           {/* Main Content */}
           {children}
           {/* Call to Action */}
+          {/* <hr /> */}
           <FloatingWhatsAppButton />
-          <OurPartnersAndFriends />
-
           {/* Footer */}
-          <footer className="bg-orange-500 text-white p-4 text-center">
-            <p>&copy; {new Date().getFullYear()} Lucumillo Experience. All rights reserved.</p>
-          </footer>
+          <Footer />
         </div>
+
       </body>
     </html>
   );

@@ -15,9 +15,9 @@ const partners: Partner[] = [
 
 export const OurPartnersAndFriends = () => {
     return (
-        <section className="bg-sky-100 dark:bg-slate-700 dark:text-white p-6 h-64 shadow-md">
+        <div className="flex-1 p-6">
             <h2 className="text-2xl font-bold mb-4 text-center">Nuestros Socios y Amigos</h2>
-            <div className="flex justify-evenly items-center gap-6 h-full">
+            <div className="flex justify-evenly items-center gap-6 pt-6">
                 {partners.map((partner) => (
                     <a
                         key={partner.name}
@@ -37,6 +37,6 @@ export const OurPartnersAndFriends = () => {
                     </a>
                 ))}
             </div>
-        </section>
+        </div>
     );
 };
